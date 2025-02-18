@@ -1,0 +1,628 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  padding: 0 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero .hero-content {
+  position: relative;
+  width: 90%;
+  top: 2%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.hero .hero-content > h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  width: 90%;
+  margin-bottom: 1.5rem;
+  font-weight: 200;
+}
+.hero .hero-content > p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 78%;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero .hero-content > p strong {
+  line-height: 1.7;
+  position: relative;
+  top: -0.5rem;
+}
+.hero .hero-content > p > img {
+  height: 3.5rem;
+}
+.hero .hero-content > a {
+  background-color: #e6ca4a;
+  color: #000000;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+.hero .hero-content > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+}
+
+.products {
+  padding: 2rem 12% 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 3rem;
+}
+.products::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #f5ebba;
+  width: 70%;
+  bottom: -0.7rem;
+}
+.products .product-header {
+  flex: 1;
+}
+.products .product-header > h2 {
+  font-size: 3.5rem;
+  width: 95%;
+  line-height: 1.5;
+}
+.products .product-text {
+  flex: 1;
+  width: 100%;
+}
+.products .product-text > h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.products .product-text > p {
+  font-size: 1.3rem;
+  margin-bottom: 1.9rem;
+}
+.products .product-text > a {
+  position: absolute;
+  background-color: #e6ca4a;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+}
+.products .product-text > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+}
+
+.about {
+  position: relative;
+  padding: 7rem 12% 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #f5ebba;
+  width: 70%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about > h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  width: 75%;
+}
+.about > p {
+  font-size: 1.5rem;
+  width: 60%;
+  margin-bottom: 3.5rem;
+  line-height: 1.7;
+}
+.about > a {
+  background-color: #e6ca4a;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.about > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+  border-color: #6d675a;
+}
+
+.testing {
+  padding: 7rem 12% 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.testing > h2 {
+  font-size: 3rem;
+  width: 75%;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.testing > h2 img {
+  height: 5rem;
+}
+.testing > p {
+  font-size: 1.5rem;
+  width: 75%;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+.testing > a {
+  background-color: #e6ca4a;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.testing > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+  border-color: #6d675a;
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 95%;
+  }
+  .hero {
+    padding: 0 10%;
+  }
+  .hero .hero-content {
+    width: 100%;
+  }
+  .hero .hero-content h1 {
+    width: 100%;
+  }
+  .products {
+    padding: 2rem 10% 7rem;
+  }
+  .products .product-header > h2 {
+    width: 100%;
+  }
+  .about {
+    padding: 7rem 10%;
+  }
+  .testing {
+    padding: 7rem 10%;
+  }
+  .testing > p {
+    width: 85%;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+  .hero {
+    padding: 0 8%;
+  }
+  .about {
+    padding: 7rem 8%;
+  }
+  .products {
+    padding: 2rem 8% 7rem;
+  }
+  .testing {
+    padding: 7rem 8%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  .hero {
+    padding: 0 4%;
+    height: 100dvh;
+  }
+  .products {
+    padding: 0 4% 7rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .products::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .products .product-header > h2 {
+    width: 100%;
+    max-width: 30rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 11rem;
+    position: relative;
+  }
+  .products .product-header > h2:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 95%;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6ca4a;
+  }
+  .products .product-text {
+    width: 90%;
+  }
+  .products .product-text > h3 {
+    font-size: 2.7rem;
+    margin-bottom: 4rem;
+  }
+  .products .product-text > p {
+    margin-bottom: 5rem;
+    font-size: 1.7rem;
+    width: 95%;
+  }
+  .about {
+    padding: 7rem 4%;
+    align-items: flex-end;
+    text-align: right;
+  }
+  .about > h2 {
+    margin-bottom: 4rem;
+  }
+  .about > p {
+    width: 95%;
+    font-size: 1.7rem;
+    margin-bottom: 5rem;
+  }
+  .testing {
+    padding: 7rem 4%;
+  }
+}
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+  .hero {
+    padding: 0 16%;
+  }
+  .about {
+    padding: 7rem 16%;
+  }
+  .products {
+    padding: 2rem 16% 7rem;
+  }
+  .testing {
+    padding: 7rem 16%;
+  }
+}
+.hero .hero-content > h1 {
+  width: 100%;
+}
+.hero .hero-content > p {
+  width: 85%;
+  font-size: 1.5rem;
+}
+
+.motorcycle {
+  padding: 2rem 12% 5rem;
+  width: 100%;
+}
+.motorcycle > h2 {
+  font-size: 2.5rem;
+  width: 75%;
+  margin-bottom: 1rem;
+}
+.motorcycle > p {
+  font-size: 1.5rem;
+  margin-bottom: 7rem;
+  width: 50%;
+}
+.motorcycle .filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.motorcycle .filter-container #model-filter {
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #35322c;
+}
+.motorcycle .filter-container #filter-input {
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border: 1px solid #35322c;
+  border-radius: 0.1rem;
+}
+.motorcycle .filter-container #filter-button,
+.motorcycle .filter-container #reset-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #e6ca4a;
+  color: #000000;
+  border: none;
+  border-radius: 0.1rem;
+  margin-right: 5px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.motorcycle .filter-container #reset-button {
+  background-color: #f7f7f7;
+  border: 1px solid #35322c;
+}
+.motorcycle .filter-container #reset-button:hover {
+  background-color: white;
+  border-color: #6d675a;
+}
+.motorcycle .filter-container #filter-button:hover {
+  background-color: #debc1f;
+  border-color: #6d675a;
+}
+.motorcycle .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.motorcycle .page-button {
+  background-color: #f7f7f7;
+  border: 1px solid #35322c;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.motorcycle .page-button.active {
+  background-color: #e6ca4a;
+  color: #000000;
+  border-color: #e6ca4a;
+}
+.motorcycle .page-button:hover {
+  background-color: white;
+  border-color: #6d675a;
+}
+.motorcycle .motorcycle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.motorcycle .motorcycle-grid .product-item {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.1rem;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.motorcycle .motorcycle-grid .product-item:hover {
+  background: #f7f7f7;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.motorcycle .motorcycle-grid .product-item:hover .timeline-content .time-line-icon img {
+  scale: 1.05;
+}
+.motorcycle .motorcycle-grid .product-item img {
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+.motorcycle .motorcycle-grid .product-item > h3 {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+.motorcycle .motorcycle-grid .product-item > p {
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+.motorcycle .motorcycle-grid .product-item .price {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.motorcycle .motorcycle-grid .product-item > a {
+  background-color: #e6ca4a;
+  color: #000000;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+.motorcycle .motorcycle-grid .product-item > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+  border-color: #6d675a;
+}
+.motorcycle .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.motorcycle .page-button {
+  background-color: #f7f7f7;
+  border: 1px solid #35322c;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.motorcycle .page-button:hover {
+  background-color: white;
+  border-color: #6d675a;
+}
+.motorcycle .page-button.active {
+  background-color: #e6ca4a;
+  color: #000000;
+  border-color: #e6ca4a;
+}
+.motorcycle .products-catalog {
+  margin-top: 7rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.motorcycle .products-catalog::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #f2e4a4;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -5rem;
+}
+.motorcycle .products-catalog > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.motorcycle .products-catalog > p {
+  font-size: 1.3rem;
+  width: 75%;
+  margin-bottom: 3rem;
+}
+.motorcycle .products-catalog > a {
+  background-color: #e6ca4a;
+  color: #000000;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  position: absolute;
+}
+.motorcycle .products-catalog > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+  border-color: #6d675a;
+}
+.motorcycle .used-bikes {
+  margin-top: 8rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+}
+.motorcycle .used-bikes > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+.motorcycle .used-bikes > p {
+  font-size: 1.3rem;
+  width: 70%;
+  margin-bottom: 3rem;
+  text-align: right;
+}
+.motorcycle .used-bikes > a {
+  background-color: #e6ca4a;
+  color: #000000;
+  border-radius: 0.1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+.motorcycle .used-bikes > a:hover {
+  color: #ffffff;
+  background-color: #debc1f;
+  border-color: #6d675a;
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 95%;
+  }
+  .motorcycle {
+    padding: 2rem 10% 5rem;
+  }
+  .motorcycle > p {
+    width: 70%;
+  }
+  .motorcycle .motorcycle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .motorcycle .motorcycle-grid .product-item {
+    padding: 1rem 0.7rem;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+  .hero .hero-content h1 {
+    width: 90%;
+  }
+  .motorcycle {
+    padding: 2rem 8% 5rem;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  .motorcycle {
+    padding: 2rem 4% 5rem;
+  }
+  .motorcycle .filter-container {
+    align-items: baseline;
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin-bottom: 5rem;
+  }
+  .motorcycle .motorcycle-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .motorcycle .pagination {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+  .motorcycle {
+    padding: 2rem 16% 5rem;
+  }
+  .motorcycle .products-catalog > p {
+    width: 50%;
+  }
+  .motorcycle .used-bikes > p {
+    width: 50%;
+  }
+}/*# sourceMappingURL=produkty.css.map */

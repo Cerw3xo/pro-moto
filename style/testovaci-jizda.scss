@@ -1,0 +1,207 @@
+@import "style.scss";
+
+.hero {
+  .hero-content {
+    p {
+      width: 95%;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.test-ride {
+  .test-conditions {
+    padding: 2rem 12% 5rem;
+
+    h3 {
+      font-size: 2.3rem;
+      margin-bottom: 2.5rem;
+    }
+    ol {
+      strong {
+        color: darken($gold-color, 12%);
+      }
+      li {
+        font-size: 1.1rem;
+        margin-bottom: 0.9rem;
+        counter-increment: list-counter;
+        position: relative;
+      }
+
+      li::before {
+        content: "0" counter(list-counter);
+        margin-right: 0.7rem;
+        color: darken($gold-color, 12%);
+        font-weight: 600;
+      }
+    }
+  }
+
+  .test-pricing {
+    padding: 2rem 12% 8rem;
+    > h3 {
+      font-size: 2.3rem;
+      margin-bottom: 2.5rem;
+    }
+
+    > p {
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      width: 75%;
+      font-weight: 600;
+
+      strong {
+        color: darken($gold-color, 12%);
+      }
+    }
+
+    .rental-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      margin-bottom: 1rem;
+
+      th,
+      td {
+        padding: 0.7rem 0.9rem;
+        border: 1px solid $gold-color;
+        text-align: center;
+      }
+
+      th {
+        background-color: lighten($gold-color, 33%);
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+
+  .rental-table tbody tr:hover {
+    background-color: lighten($gold-color, 30%);
+  }
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 95%;
+  }
+
+  .hero {
+    .hero-content {
+      p {
+        width: 90%;
+      }
+    }
+  }
+
+  .test-ride {
+    .test-conditions {
+      padding: 2rem 10% 5rem;
+    }
+
+    .test-pricing {
+      padding: 2rem 10% 8rem;
+
+      .rental-table {
+        th,
+        td {
+          padding: 0.7rem 0.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+
+  .test-ride {
+    .test-conditions {
+      padding: 2rem 8% 8rem;
+    }
+
+    .test-pricing {
+      padding: 2rem 8% 8rem;
+
+      .rental-table {
+        th,
+        td {
+          padding: 0.7rem 0.2rem;
+          font-size: 1.1rem;
+        }
+      }
+      > p {
+        font-size: 1rem;
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+
+  .test-ride {
+    .test-conditions {
+      padding: 2rem 4% 8rem;
+
+      ol {
+        li {
+          width: 90%;
+          margin-bottom: 1.5rem;
+          font-size: 1.5rem;
+          text-indent: -2.9rem;
+          padding-left: 2.7rem;
+          line-height: 1.3;
+        }
+        li::before {
+          margin-right: 0.7rem;
+          margin-left: 0.3rem;
+        }
+      }
+    }
+
+    .test-pricing {
+      padding: 2rem 4% 8rem;
+
+      .scroll {
+        overflow-x: auto;
+        width: 100%;
+
+        .rental-table {
+          min-width: 100%;
+          border-collapse: collapse;
+          padding: 1rem;
+
+          th,
+          td {
+            padding: 1rem;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+  .test-ride {
+    .test-conditions {
+      padding: 2rem 16% 6rem;
+    }
+
+    .test-pricing {
+      padding: 2rem 16% 8rem;
+      > p {
+        width: 50%;
+      }
+    }
+  }
+}

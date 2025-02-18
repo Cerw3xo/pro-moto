@@ -1,0 +1,365 @@
+@import "style.scss";
+
+.hero {
+  .hero-content {
+    > h1 {
+      width: 100%;
+    }
+    > p {
+      width: 85%;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.motorcycle {
+  padding: 2rem 12% 5rem;
+  width: 100%;
+
+  > h2 {
+    font-size: 2.5rem;
+    width: 75%;
+    margin-bottom: 1rem;
+  }
+  > p {
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    width: 50%;
+  }
+
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    #model-filter {
+      margin-right: 1rem;
+      cursor: pointer;
+      padding: 0.4rem 0.7rem;
+      font-size: 1rem;
+      border: 1px solid #35322c;
+    }
+
+    #filter-input {
+      padding: 0.4rem 0.7rem;
+      font-size: 1rem;
+      margin-right: 1rem;
+      border: 1px solid #35322c;
+      border-radius: 0.1rem;
+    }
+
+    #filter-button,
+    #reset-button {
+      padding: 10px 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: $gold-color;
+      color: $text-color;
+      border: none;
+      border-radius: 0.1rem;
+      margin-right: 5px;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    #reset-button {
+      background-color: $second-bg;
+      border: 1px solid #35322c;
+    }
+
+    #reset-button:hover {
+      background-color: lighten($second-bg, 5%);
+      border-color: lighten(#35322c, 20%);
+    }
+
+    #filter-button:hover {
+      background-color: darken($gold-color, 10%);
+      border-color: lighten(#35322c, 20%);
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .page-button {
+    background-color: $second-bg;
+    border: 1px solid #35322c;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .page-button.active {
+    background-color: $gold-color;
+    color: $text-color;
+    border-color: $gold-color;
+  }
+
+  .page-button:hover {
+    background-color: lighten($second-bg, 5%);
+    border-color: lighten(#35322c, 20%);
+  }
+
+  .motorcycle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    .product-item {
+      background-color: $background; // alebo biela
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 0.1rem;
+      text-align: center;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: 0.1s ease;
+      cursor: pointer;
+
+      &:hover {
+        background: $second-bg;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+        .timeline-content {
+          .time-line-icon {
+            img {
+              scale: 1.05;
+            }
+          }
+        }
+      }
+
+      img {
+        width: 80%;
+        margin-bottom: 1.5rem;
+      }
+
+      > h3 {
+        font-size: 1.1rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+      }
+      > p {
+        line-height: 1.3;
+        margin-bottom: 1rem;
+      }
+      .price {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+
+      > a {
+        background-color: $gold-color;
+        color: $text-color;
+        border-radius: 0.1rem;
+        font-weight: 600;
+        padding: 0.4rem 0.7rem;
+        font-size: 1rem;
+        border: 1px solid black;
+
+        &:hover {
+          color: $background;
+          background-color: darken($gold-color, 10%);
+          border-color: lighten(#35322c, 20%);
+        }
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .page-button {
+    background-color: $second-bg;
+    border: 1px solid #35322c;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
+    &:hover {
+      background-color: lighten($second-bg, 5%);
+      border-color: lighten(#35322c, 20%);
+    }
+  }
+
+  .page-button.active {
+    background-color: $gold-color;
+    color: $text-color;
+    border-color: $gold-color;
+  }
+
+  .products-catalog {
+    margin-top: 7rem;
+    position: relative;
+    padding-bottom: 2rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      background-color: lighten($gold-color, 20%);
+      width: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      bottom: -5rem;
+    }
+
+    > h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    > p {
+      font-size: 1.3rem;
+      width: 75%;
+      margin-bottom: 3rem;
+    }
+    > a {
+      background-color: $gold-color;
+      color: $text-color;
+      border-radius: 0.1rem;
+      font-weight: 600;
+      padding: 0.4rem 0.7rem;
+      font-size: 1rem;
+      border: 1px solid black;
+      position: absolute;
+
+      &:hover {
+        color: $background;
+        background-color: darken($gold-color, 10%);
+        border-color: lighten(#35322c, 20%);
+      }
+    }
+  }
+
+  .used-bikes {
+    margin-top: 8rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+
+    > h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: right;
+    }
+
+    > p {
+      font-size: 1.3rem;
+      width: 70%;
+      margin-bottom: 3rem;
+      text-align: right;
+    }
+    > a {
+      background-color: $gold-color;
+      color: $text-color;
+      border-radius: 0.1rem;
+      font-weight: 600;
+      padding: 0.4rem 0.7rem;
+      font-size: 1rem;
+      border: 1px solid black;
+
+      &:hover {
+        color: $background;
+        background-color: darken($gold-color, 10%);
+        border-color: lighten(#35322c, 20%);
+      }
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 95%;
+  }
+
+  .motorcycle {
+    padding: 2rem 10% 5rem;
+
+    > p {
+      width: 70%;
+    }
+
+    .motorcycle-grid {
+      grid-template-columns: repeat(2, 1fr);
+
+      .product-item {
+        padding: 1rem 0.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+
+  .hero {
+    .hero-content {
+      h1 {
+        width: 90%;
+      }
+    }
+  }
+
+  .motorcycle {
+    padding: 2rem 8% 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+
+  .motorcycle {
+    padding: 2rem 4% 5rem;
+
+    .filter-container {
+      align-items: baseline;
+      justify-content: start;
+      flex-wrap: wrap;
+      row-gap: 1rem;
+      margin-bottom: 5rem;
+    }
+
+    .motorcycle-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pagination {
+      margin-top: 3rem;
+    }
+  }
+}
+
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+  .motorcycle {
+    padding: 2rem 16% 5rem;
+
+    .products-catalog {
+      > p {
+        width: 50%;
+      }
+    }
+
+    .used-bikes {
+      > p {
+        width: 50%;
+      }
+    }
+  }
+}

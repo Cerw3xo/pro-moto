@@ -1,0 +1,176 @@
+@import "style.scss";
+
+.hero {
+  .hero-content {
+    > h1 {
+      width: 90%;
+    }
+    > p {
+      width: 75%;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.about-us {
+  position: relative;
+  padding: 2rem 12% 7rem;
+
+  .about-content {
+    display: flex;
+    gap: 3rem;
+    position: relative;
+
+    aside {
+      flex: 1;
+
+      .about-text {
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 0.1rem;
+        background-color: $background;
+        padding: 3rem;
+        margin-bottom: 2rem;
+        flex: 1;
+        position: relative;
+
+        > h3 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+          position: relative;
+
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0.2rem;
+            width: 25%;
+            height: 2px;
+            background-color: $gold-color;
+          }
+        }
+        > p {
+          font-size: 1.2rem;
+          margin-bottom: 1.5rem;
+          font-weight: 200;
+        }
+      }
+
+      .about-list {
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 0.1rem;
+        background-color: $background;
+        padding: 3rem;
+
+        ul {
+          li {
+            margin-bottom: 2.5rem;
+            font-size: 1rem;
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -0.2rem;
+              width: 100%;
+              height: 1px;
+              background-color: $gold-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 95%;
+  }
+
+  .about-us {
+    padding: 2rem 10% 7rem;
+
+    .about-content {
+      gap: 1rem;
+
+      aside {
+        .about-text {
+          padding: 3rem 1.7rem;
+        }
+
+        .about-list {
+          padding: 3rem 1.7rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+
+  .about-us {
+    padding: 2rem 8% 9rem;
+
+    .about-content {
+      flex-direction: column;
+      gap: 5rem;
+
+      aside {
+        .about-text {
+          padding: 3rem 6rem;
+          > p {
+            font-size: 1.3rem;
+          }
+        }
+
+        .about-list {
+          padding: 3rem 6rem;
+
+          ul {
+            li {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+
+  .about-us {
+    padding: 2rem 4% 9rem;
+
+    .about-content {
+      aside {
+        .about-text {
+          padding: 3rem 2rem;
+
+          > p {
+            font-size: 1.3rem;
+          }
+        }
+
+        .about-list {
+          padding: 3rem 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+  .about-us {
+    padding: 2rem 16% 9rem;
+  }
+}

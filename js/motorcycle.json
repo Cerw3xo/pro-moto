@@ -1,0 +1,2350 @@
+
+  
+    [
+        {
+          "id": 1,
+          "model": "Interceptor 650 - Baker Express",
+          "variant": "Baker Express",
+          "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+          "price": "190,000 Kč",
+          "images": [
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 1.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 2.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 3.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 4.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 5.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 6.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 7.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 8.png",
+            "assets/motorcycle/interceptor-650/baker-express/Interceptor 650 Baker Express 9.png"
+          ],
+          "specifications": {
+            "dimensions": {
+              "weight": "217 kg",
+              "wheelbase": "1398 mm",
+              "seat_height": "805 mm",
+              "ground_clearance": "174 mm",
+              "length_width_height": "2119 x 788 x 1120 mm"
+            },
+            "capacity": {
+              "fuel_tank": "13,7 ± 0,5 litru",
+              "reserve": "2,9 ± 0,5 litru",
+              "consumption": "4,3 l/100 km"
+            },
+            "engine": {
+              "cylinders": 2,
+              "bore_stroke": "78 x 67,8 mm",
+              "cooling_system": "Chlazení vzduchem a olejem",
+              "capacity": "648 cc",
+              "injection_system": "ECU",
+              "valves_per_cylinder": 2,
+              "compression_ratio": "9,5:1",
+              "max_power": "34,9 kW při 7150 ot./min",
+              "max_speed": "164 km/h",
+              "max_torque": "52,3 Nm při 5150 ot./min",
+              "co2_emissions": "99 g/km",
+              "idle_rpm": "1200 ± 80",
+              "noise_emissions": "89 dB(A) při 3575 ot./min",
+              "clutch": "Konvenční mokrá spojka",
+              "secondary_transmission": "Řetězem",
+              "gearbox": "6-rychlostní",
+              "starting_system": "Elektrický",
+              "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+            },
+            "frame_chassis_brakes": {
+              "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+              "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+              "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+              "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+              "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+              "abs": "Duální",
+              "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+              "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+            },
+            "equipment": {
+              "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+              "emergency_switch": "Ano",
+              "center_and_side_stand": "Ano",
+              "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+              "side_stand_switch": "Ano"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "model": "Interceptor 650 - Canyon Red",
+          "variant": "Canyon Red",
+          "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+          "price": "192,000 Kč",
+          "images": [
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 1.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 2.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 3.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 4.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 5.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 6.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 7.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 8.png",
+            "assets/motorcycle/interceptor-650/canyon-red/Interceptor 650 Canyon Red 9.png"
+          ],
+          "specifications": {
+            "dimensions": {
+              "weight": "217 kg",
+              "wheelbase": "1398 mm",
+              "seat_height": "805 mm",
+              "ground_clearance": "174 mm",
+              "length_width_height": "2119 x 788 x 1120 mm"
+            },
+            "capacity": {
+              "fuel_tank": "13,7 ± 0,5 litru",
+              "reserve": "2,9 ± 0,5 litru",
+              "consumption": "4,3 l/100 km"
+            },
+            "engine": {
+              "cylinders": 2,
+              "bore_stroke": "78 x 67,8 mm",
+              "cooling_system": "Chlazení vzduchem a olejem",
+              "capacity": "648 cc",
+              "injection_system": "ECU",
+              "valves_per_cylinder": 2,
+              "compression_ratio": "9,5:1",
+              "max_power": "34,9 kW při 7150 ot./min",
+              "max_speed": "164 km/h",
+              "max_torque": "52,3 Nm při 5150 ot./min",
+              "co2_emissions": "99 g/km",
+              "idle_rpm": "1200 ± 80",
+              "noise_emissions": "89 dB(A) při 3575 ot./min",
+              "clutch": "Konvenční mokrá spojka",
+              "secondary_transmission": "Řetězem",
+              "gearbox": "6-rychlostní",
+              "starting_system": "Elektrický",
+              "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+            },
+            "frame_chassis_brakes": {
+              "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+              "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+              "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+              "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+              "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+              "abs": "Duální",
+              "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+              "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+            },
+            "equipment": {
+              "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+              "emergency_switch": "Ano",
+              "center_and_side_stand": "Ano",
+              "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+              "side_stand_switch": "Ano"
+            }
+          }
+        },
+    
+      
+        {
+          "id": 3,
+          "model": "Interceptor 650 - Downtown Drag",
+          "variant": "Downtown Drag",
+          "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+          "price": "194,000 Kč",
+          "images": [
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 2.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 1.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 3.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 4.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 5.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 6.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 7.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 8.png",
+            "assets/motorcycle/interceptor-650/downtown-drag/Interceptor 650 Downtown Drag 9.png"
+            
+          ],
+          "specifications": {
+            "dimensions": {
+              "weight": "217 kg",
+              "wheelbase": "1398 mm",
+              "seat_height": "805 mm",
+              "ground_clearance": "174 mm",
+              "length_width_height": "2119 x 788 x 1120 mm"
+            },
+            "capacity": {
+              "fuel_tank": "13,7 ± 0,5 litru",
+              "reserve": "2,9 ± 0,5 litru",
+              "consumption": "4,3 l/100 km"
+            },
+            "engine": {
+              "cylinders": 2,
+              "bore_stroke": "78 x 67,8 mm",
+              "cooling_system": "Chlazení vzduchem a olejem",
+              "capacity": "648 cc",
+              "injection_system": "ECU",
+              "valves_per_cylinder": 2,
+              "compression_ratio": "9,5:1",
+              "max_power": "34,9 kW při 7150 ot./min",
+              "max_speed": "164 km/h",
+              "max_torque": "52,3 Nm při 5150 ot./min",
+              "co2_emissions": "99 g/km",
+              "idle_rpm": "1200 ± 80",
+              "noise_emissions": "89 dB(A) při 3575 ot./min",
+              "clutch": "Konvenční mokrá spojka",
+              "secondary_transmission": "Řetězem",
+              "gearbox": "6-rychlostní",
+              "starting_system": "Elektrický",
+              "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+            },
+            "frame_chassis_brakes": {
+              "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+              "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+              "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+              "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+              "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+              "abs": "Duální",
+              "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+              "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+            },
+            "equipment": {
+              "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+              "emergency_switch": "Ano",
+              "center_and_side_stand": "Ano",
+              "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+              "side_stand_switch": "Ano"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "model": "Interceptor 650 - Mark Two",
+          "variant": "Mark Two",
+          "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+          "price": "192,000 Kč",
+          "images": [
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 1.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 2.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 3.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 4.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 5.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 6.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 7.png",
+            "assets/motorcycle/interceptor-650/mark-two/Interceptor 650 Mark Two 8.png"
+          ],
+          "specifications": {
+            "dimensions": {
+              "weight": "217 kg",
+              "wheelbase": "1398 mm",
+              "seat_height": "805 mm",
+              "ground_clearance": "174 mm",
+              "length_width_height": "2119 x 788 x 1120 mm"
+            },
+            "capacity": {
+              "fuel_tank": "13,7 ± 0,5 litru",
+              "reserve": "2,9 ± 0,5 litru",
+              "consumption": "4,3 l/100 km"
+            },
+            "engine": {
+              "cylinders": 2,
+              "bore_stroke": "78 x 67,8 mm",
+              "cooling_system": "Chlazení vzduchem a olejem",
+              "capacity": "648 cc",
+              "injection_system": "ECU",
+              "valves_per_cylinder": 2,
+              "compression_ratio": "9,5:1",
+              "max_power": "34,9 kW při 7150 ot./min",
+              "max_speed": "164 km/h",
+              "max_torque": "52,3 Nm při 5150 ot./min",
+              "co2_emissions": "99 g/km",
+              "idle_rpm": "1200 ± 80",
+              "noise_emissions": "89 dB(A) při 3575 ot./min",
+              "clutch": "Konvenční mokrá spojka",
+              "secondary_transmission": "Řetězem",
+              "gearbox": "6-rychlostní",
+              "starting_system": "Elektrický",
+              "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+            },
+            "frame_chassis_brakes": {
+              "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+              "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+              "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+              "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+              "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+              "abs": "Duální",
+              "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+              "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+            },
+            "equipment": {
+              "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+              "emergency_switch": "Ano",
+              "center_and_side_stand": "Ano",
+              "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+              "side_stand_switch": "Ano"
+            }
+          }
+        },
+    
+        {
+          "id": 5,
+          "model": "Interceptor 650 - Orange Crush",
+          "variant": "Orange Crush",
+          "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+          "price": "190,000 Kč",
+          "images": [
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 1.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 2.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 3.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 4.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 5.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 6.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 7.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 8.png",
+            "assets/motorcycle/interceptor-650/orange-crush/Interceptor 650 Orange Crush 9.png"
+          ],
+          "specifications": {
+            "dimensions": {
+              "weight": "217 kg",
+              "wheelbase": "1398 mm",
+              "seat_height": "805 mm",
+              "ground_clearance": "174 mm",
+              "length_width_height": "2119 x 788 x 1120 mm"
+            },
+            "capacity": {
+              "fuel_tank": "13,7 ± 0,5 litru",
+              "reserve": "2,9 ± 0,5 litru",
+              "consumption": "4,3 l/100 km"
+            },
+            "engine": {
+              "cylinders": 2,
+              "bore_stroke": "78 x 67,8 mm",
+              "cooling_system": "Chlazení vzduchem a olejem",
+              "capacity": "648 cc",
+              "injection_system": "ECU",
+              "valves_per_cylinder": 2,
+              "compression_ratio": "9,5:1",
+              "max_power": "34,9 kW při 7150 ot./min",
+              "max_speed": "164 km/h",
+              "max_torque": "52,3 Nm při 5150 ot./min",
+              "co2_emissions": "99 g/km",
+              "idle_rpm": "1200 ± 80",
+              "noise_emissions": "89 dB(A) při 3575 ot./min",
+              "clutch": "Konvenční mokrá spojka",
+              "secondary_transmission": "Řetězem",
+              "gearbox": "6-rychlostní",
+              "starting_system": "Elektrický",
+              "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+            },
+            "frame_chassis_brakes": {
+              "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+              "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+              "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+              "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+              "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+              "abs": "Duální",
+              "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+              "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+            },
+            "equipment": {
+              "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+              "emergency_switch": "Ano",
+              "center_and_side_stand": "Ano",
+              "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+              "side_stand_switch": "Ano"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "model": "Interceptor 650 - Sunset Strip",
+          "variant": "Sunset Strip",
+          "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+          "price": "192,000 Kč",
+          "images": [
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 1.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 2.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 3.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 4.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 5.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 6.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 7.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 8.png",
+            "assets/motorcycle/interceptor-650/sunset-strip/Interceptor 650 Sunset Strip 9.png"
+              ],
+          "specifications": {
+            "dimensions": {
+              "weight": "217 kg",
+              "wheelbase": "1398 mm",
+              "seat_height": "805 mm",
+              "ground_clearance": "174 mm",
+              "length_width_height": "2119 x 788 x 1120 mm"
+            },
+            "capacity": {
+              "fuel_tank": "13,7 ± 0,5 litru",
+              "reserve": "2,9 ± 0,5 litru",
+              "consumption": "4,3 l/100 km"
+            },
+            "engine": {
+              "cylinders": 2,
+              "bore_stroke": "78 x 67,8 mm",
+              "cooling_system": "Chlazení vzduchem a olejem",
+              "capacity": "648 cc",
+              "injection_system": "ECU",
+              "valves_per_cylinder": 2,
+              "compression_ratio": "9,5:1",
+              "max_power": "34,9 kW při 7150 ot./min",
+              "max_speed": "164 km/h",
+              "max_torque": "52,3 Nm při 5150 ot./min",
+              "co2_emissions": "99 g/km",
+              "idle_rpm": "1200 ± 80",
+              "noise_emissions": "89 dB(A) při 3575 ot./min",
+              "clutch": "Konvenční mokrá spojka",
+              "secondary_transmission": "Řetězem",
+              "gearbox": "6-rychlostní",
+              "starting_system": "Elektrický",
+              "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+            },
+            "frame_chassis_brakes": {
+              "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+              "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+              "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+              "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+              "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+              "abs": "Duální",
+              "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+              "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+            },
+            "equipment": {
+              "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+              "emergency_switch": "Ano",
+              "center_and_side_stand": "Ano",
+              "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+              "side_stand_switch": "Ano"
+            }
+          }
+        },
+        {
+            "id": 7,
+            "model": "Interceptor 650 - Ventura Blue",
+            "variant": "Ventura Blue",
+            "description": "Inspirovaný ikonickým modelem Interceptor z 60.let v době jeho největší slávy na americkém západním pobřeží. Nový Interceptor 650 Twin vystihuje životní styl slunné Kalifornie. Tato moderní klasika je podstatou britského roadsteru, která spojuje nadčasový styl a současný výkon.",
+            "price": "192,000 Kč",
+            "images": [
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 1.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 2.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 3.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 4.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 5.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 6.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 7.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 8.png",
+                "assets/motorcycle/interceptor-650/ventura-blue/Interceptor 650 Ventura Blue 9.png"        ],
+            "specifications": {
+              "dimensions": {
+                "weight": "217 kg",
+                "wheelbase": "1398 mm",
+                "seat_height": "805 mm",
+                "ground_clearance": "174 mm",
+                "length_width_height": "2119 x 788 x 1120 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13,7 ± 0,5 litru",
+                "reserve": "2,9 ± 0,5 litru",
+                "consumption": "4,3 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,9 kW při 7150 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5150 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 80",
+                "noise_emissions": "89 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+                "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+                "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+                "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+                "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "model": "Shotgun 650 Sheet - Metal Grey",
+            "variant": "Sheet Metal Grey",
+            "description": "Nový model Shotgun 650 je skutečně jedinečný motocykl, který se zrodil ze syrové tvůrčí energie smíšené s anarchickou kulturou zakázkové výroby a DNA čistokrevné značky Royal Enfield.",
+            "price": "196,990 Kč",
+            "images": [
+                "assets/motorcycle/shotgun-650/grey/Shotgun_650 - 2024-01-15T132600.075.jpg",
+                "assets/motorcycle/shotgun-650/grey/Shotgun_650 (58).JPG"
+            ],        "specifications": {
+              "dimensions": {
+                "weight": "240 kg",
+                "wheelbase": "1465 mm",
+                "seat_height": "795 mm",
+                "ground_clearance": "140 mm",
+                "length_width_height": "2170 x 820 x 1105 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13,8 ± 0,5 litru",
+                "reserve": "3,5 ± 0,5 litru",
+                "consumption": "4,18 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,6 kW při 7250 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5650 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 100",
+                "noise_emissions": "76,3 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Steel Tubular Spine rám",
+                "front_wheel": "Lité paprskové - 100/90 - 18\" – 56H (bezdušové)",
+                "rear_wheel": "Lité paprskové - 150/70 - 17\" – 69H (bezdušové)",
+                "front_suspension": "Obrácená teleskopická vidlice Showa zdvih 120mm",
+                "rear_suspension": "Dva emulzní tlumiče Showa s 6stupňovým nastavitelným předpětím, zdvih 90mm",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "headlight": "LED",
+                "rear_light": "LED",
+                "usb": "USB 2.0 typ A - 5V 2A výstup",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+
+          {
+            "id": 9,
+            "model": "Shotgun 650 - Green Drill",
+            "variant": "Green Drill",
+            "description": "Nový model Shotgun 650 je skutečně jedinečný motocykl, který se zrodil ze syrové tvůrčí energie smíšené s anarchickou kulturou zakázkové výroby a DNA čistokrevné značky Royal Enfield.",
+            "price": "199,990 Kč",
+            "images": [
+              "assets/motorcycle/shotgun-650/green/Shotgun_650 (30).jpg",
+              "assets/motorcycle/shotgun-650/green/Shotgun_650(25).jpg",
+              "assets/motorcycle/shotgun-650/green/Shotgun_650(82).jpg"
+          
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "240 kg",
+                "wheelbase": "1465 mm",
+                "seat_height": "795 mm",
+                "ground_clearance": "140 mm",
+                "length_width_height": "2170 x 820 x 1105 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13,8 ± 0,5 litru",
+                "reserve": "3,5 ± 0,5 litru",
+                "consumption": "4,18 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,6 kW při 7250 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5650 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 100",
+                "noise_emissions": "76,3 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Steel Tubular Spine rám",
+                "front_wheel": "Lité paprskové - 100/90 - 18\" – 56H (bezdušové)",
+                "rear_wheel": "Lité paprskové - 150/70 - 17\" – 69H (bezdušové)",
+                "front_suspension": "Obrácená teleskopická vidlice Showa zdvih 120mm",
+                "rear_suspension": "Dva emulzní tlumiče Showa s 6stupňovým nastavitelným předpětím, zdvih 90mm",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "headlight": "LED",
+                "rear_light": "LED",
+                "usb": "USB 2.0 typ A - 5V 2A výstup",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+
+          {
+            "id": 10,
+            "model": "Shotgun 650 - Plasma Blue",
+            "variant": "Plasma Blue",
+            "description": "Nový model Shotgun 650 je skutečně jedinečný motocykl, který se zrodil ze syrové tvůrčí energie smíšené s anarchickou kulturou zakázkové výroby a DNA čistokrevné značky Royal Enfield.",
+            "price": "199,990 Kč",
+            "images": [
+              "assets/motorcycle/shotgun-650/plasma-blue/Shotgun_650 - 2024-01-15T132538.727.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "240 kg",
+                "wheelbase": "1465 mm",
+                "seat_height": "795 mm",
+                "ground_clearance": "140 mm",
+                "length_width_height": "2170 x 820 x 1105 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13,8 ± 0,5 litru",
+                "reserve": "3,5 ± 0,5 litru",
+                "consumption": "4,18 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,6 kW při 7250 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5650 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 100",
+                "noise_emissions": "76,3 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Steel Tubular Spine rám",
+                "front_wheel": "Lité paprskové - 100/90 - 18\" – 56H (bezdušové)",
+                "rear_wheel": "Lité paprskové - 150/70 - 17\" – 69H (bezdušové)",
+                "front_suspension": "Obrácená teleskopická vidlice Showa zdvih 120mm",
+                "rear_suspension": "Dva emulzní tlumiče Showa s 6stupňovým nastavitelným předpětím, zdvih 90mm",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "headlight": "LED",
+                "rear_light": "LED",
+                "usb": "USB 2.0 typ A - 5V 2A výstup",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+
+          {
+            "id": 11,
+            "model": "Shotgun 650 - Stencil White",
+            "variant": "Stencil White",
+            "description": "Nový model Shotgun 650 je skutečně jedinečný motocykl, který se zrodil ze syrové tvůrčí energie smíšené s anarchickou kulturou zakázkové výroby a DNA čistokrevné značky Royal Enfield.",
+            "price": "202,990 Kč",
+            "images": [
+              "assets/motorcycle/shotgun-650/stencil/Shotgun_650 (57).jpg",
+              "assets/motorcycle/shotgun-650/stencil/Shotgun_650(1).jpg",
+              "assets/motorcycle/shotgun-650/stencil/Shotgun_650(38).jpg"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "240 kg",
+                "wheelbase": "1465 mm",
+                "seat_height": "795 mm",
+                "ground_clearance": "140 mm",
+                "length_width_height": "2170 x 820 x 1105 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13,8 ± 0,5 litru",
+                "reserve": "3,5 ± 0,5 litru",
+                "consumption": "4,18 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,6 kW při 7250 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5650 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 100",
+                "noise_emissions": "76,3 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Steel Tubular Spine rám",
+                "front_wheel": "Lité paprskové - 100/90 - 18\" – 56H (bezdušové)",
+                "rear_wheel": "Lité paprskové - 150/70 - 17\" – 69H (bezdušové)",
+                "front_suspension": "Obrácená teleskopická vidlice Showa zdvih 120mm",
+                "rear_suspension": "Dva emulzní tlumiče Showa s 6stupňovým nastavitelným předpětím, zdvih 90mm",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "headlight": "LED",
+                "rear_light": "LED",
+                "usb": "USB 2.0 typ A - 5V 2A výstup",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "model": "Bear 650 - Wild Honey",
+            "variant": "Wild Honey",
+            "price": "196,990 Kč",
+            "description": "Nový stylový scrambler s duší 60. let. Vychází z modelu Interceptor 650 a je inspirovaný historickým vítězstvím Eddieho Muldera na Big Bear Run 1960.",
+            "images": [
+              "assets/motorcycle/bear-650/wild-honey/wild-honey3.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey1.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey4.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey5.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey6.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey7.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey8.png",
+              "assets/motorcycle/bear-650/wild-honey/wild-honey9.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "214 kg",
+                "wheelbase": "1460 mm",
+                "seat_height": "830 mm",
+                "ground_clearance": "184 mm",
+                "length_width_height": "2216 x 855 x 1160 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13.7 l",
+                "reserve": "N/A",
+                "consumption": "N/A"
+              },
+              "engine": {
+                "type": "2 válec, 4-taktní, vzduchem/olejem chlazený",
+                "capacity": "648 cc",
+                "max_power": "35 kW při 7150 ot/min",
+                "max_torque": "56.5 Nm při 5150 ot/min",
+                "ignition": "Digitální elektronické zapalování",
+                "clutch": "Mokrá, vícelamelová",
+                "gearbox": "6 stupňová",
+                "secondary_transmission": "Řetězem"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Ocelové trubky, dvojitý kolébkový rám",
+                "front_wheel": "MRF NYLOREX-F,100/90-19 M/C 57H",
+                "rear_wheel": "MRF NYLOREX-X,140/80R17 M/C 69H",
+                "front_suspension": "Upside down teleskopická vidlice 43 mm, zdvih předního kola 130 mm",
+                "rear_suspension": "Dvojitý tlumič, zdvih zadního kola 115 mm",
+                "abs": "Duální ABS",
+                "front_brake": "320 mm kotouč, ABS",
+                "rear_brake": "270 mm kotouč, ABS"
+              },
+              "equipment": {
+                "dashboard": "N/A",
+                "navigation": "N/A",
+                "headlight": "N/A",
+                "rear_light": "N/A",
+                "usb": "N/A",
+                "emergency_switch": "N/A",
+                "center_and_side_stand": "N/A",
+                "tool_kit": "N/A",
+                "side_stand_switch": "N/A"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "model": "Bear 650 - Petrol Green",
+            "variant": "Petrol Green",
+            "price": "196,990 Kč",
+            "description": "Nový stylový scrambler s duší 60. let. Vychází z modelu Interceptor 650 a je inspirovaný historickým vítězstvím Eddieho Muldera na Big Bear Run 1960.",
+            "images": [
+              "assets/motorcycle/bear-650/petrol-green/petrol-green3.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green2.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green4.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green5.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green6.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green7.png",
+              "assets/motorcycle/bear-650/petrol-green/petrol-green8.png"
+
+
+              
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "214 kg",
+                "wheelbase": "1460 mm",
+                "seat_height": "830 mm",
+                "ground_clearance": "184 mm",
+                "length_width_height": "2216 x 855 x 1160 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13.7 l",
+                "reserve": "N/A",
+                "consumption": "N/A"
+              },
+              "engine": {
+                "type": "2 válec, 4-taktní, vzduchem/olejem chlazený",
+                "capacity": "648 cc",
+                "max_power": "35 kW při 7150 ot/min",
+                "max_torque": "56.5 Nm při 5150 ot/min",
+                "ignition": "Digitální elektronické zapalování",
+                "clutch": "Mokrá, vícelamelová",
+                "gearbox": "6 stupňová",
+                "secondary_transmission": "Řetězem"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Ocelové trubky, dvojitý kolébkový rám",
+                "front_wheel": "MRF NYLOREX-F,100/90-19 M/C 57H",
+                "rear_wheel": "MRF NYLOREX-X,140/80R17 M/C 69H",
+                "front_suspension": "Upside down teleskopická vidlice 43 mm, zdvih předního kola 130 mm",
+                "rear_suspension": "Dvojitý tlumič, zdvih zadního kola 115 mm",
+                "abs": "Duální ABS",
+                "front_brake": "320 mm kotouč, ABS",
+                "rear_brake": "270 mm kotouč, ABS"
+              },
+              "equipment": {
+                "dashboard": "N/A",
+                "navigation": "N/A",
+                "headlight": "N/A",
+                "rear_light": "N/A",
+                "usb": "N/A",
+                "emergency_switch": "N/A",
+                "center_and_side_stand": "N/A",
+                "tool_kit": "N/A",
+                "side_stand_switch": "N/A"
+              }
+            }
+          },
+          {
+            "id": 14,
+            "model": "Bear 650 - Golden Shadow",
+            "variant": "Golden Shadow",
+            "price": "196,990 Kč",
+            "description": "Nový stylový scrambler s duší 60. let. Vychází z modelu Interceptor 650 a je inspirovaný historickým vítězstvím Eddieho Muldera na Big Bear Run 1960.",
+            "images": [
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.2.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.3.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.4.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.5.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.6.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.7.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.8.png",
+              "assets/motorcycle/bear-650/golden-shadow/golden-shadow.1.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "214 kg",
+                "wheelbase": "1460 mm",
+                "seat_height": "830 mm",
+                "ground_clearance": "184 mm",
+                "length_width_height": "2216 x 855 x 1160 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13.7 l",
+                "reserve": "N/A",
+                "consumption": "N/A"
+              },
+              "engine": {
+                "type": "2 válec, 4-taktní, vzduchem/olejem chlazený",
+                "capacity": "648 cc",
+                "max_power": "35 kW při 7150 ot/min",
+                "max_torque": "56.5 Nm při 5150 ot/min",
+                "ignition": "Digitální elektronické zapalování",
+                "clutch": "Mokrá, vícelamelová",
+                "gearbox": "6 stupňová",
+                "secondary_transmission": "Řetězem"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Ocelové trubky, dvojitý kolébkový rám",
+                "front_wheel": "MRF NYLOREX-F,100/90-19 M/C 57H",
+                "rear_wheel": "MRF NYLOREX-X,140/80R17 M/C 69H",
+                "front_suspension": "Upside down teleskopická vidlice 43 mm, zdvih předního kola 130 mm",
+                "rear_suspension": "Dvojitý tlumič, zdvih zadního kola 115 mm",
+                "abs": "Duální ABS",
+                "front_brake": "320 mm kotouč, ABS",
+                "rear_brake": "270 mm kotouč, ABS"
+              },
+              "equipment": {
+                "dashboard": "N/A",
+                "navigation": "N/A",
+                "headlight": "N/A",
+                "rear_light": "N/A",
+                "usb": "N/A",
+                "emergency_switch": "N/A",
+                "center_and_side_stand": "N/A",
+                "tool_kit": "N/A",
+                "side_stand_switch": "N/A"
+              }
+            }
+          },
+          {
+            "id": 15,
+            "model": "Bear 650 - Board Walk White",
+            "variant": "Board Walk White",
+            "description": "Nový model Bear 650 kombinuje robustnú konštrukciu s moderným výkonom a komfortom, pričom zachováva ikonický dizajn značky Royal Enfield.",
+            "price": "196,990 Kč",
+            "images": [
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white2.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white1.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white3.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white4.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white5.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white6.png",
+              "assets/motorcycle/bear-650/board-walk-white/board-walk-white7.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "214 kg",
+                "wheelbase": "1460 mm",
+                "seat_height": "830 mm",
+                "ground_clearance": "184 mm",
+                "length_width_height": "2216 x 855 x 1160 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13.7 l",
+                "reserve": "N/A",
+                "consumption": "N/A"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "N/A",
+                "cooling_system": "Vzduchom a olejom chladený",
+                "capacity": "648 cc",
+                "injection_system": "Digitálne elektronické zapalovanie",
+                "valves_per_cylinder": "N/A",
+                "compression_ratio": "N/A",
+                "max_power": "35 kW pri 7150 ot/min",
+                "max_speed": "N/A",
+                "max_torque": "56,5 Nm pri 5150 ot/min",
+                "co2_emissions": "N/A",
+                "idle_rpm": "N/A",
+                "noise_emissions": "N/A",
+                "clutch": "Mokrá, viaclameľová",
+                "secondary_transmission": "Reťaz",
+                "gearbox": "6-stupňová",
+                "starting_system": "Elektrický štartér",
+                "engine_oil": "N/A"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Ocelový dvojitý kolískový rám",
+                "front_wheel": "100/90-19 M/C 57H",
+                "rear_wheel": "140/80R17 M/C 69H",
+                "front_suspension": "Upside down teleskopická vidlica 43 mm, zdvih predného kolesa 130 mm",
+                "rear_suspension": "Dvojitý tlmič, zdvih zadného kolesa 115 mm",
+                "abs": "Duálne ABS",
+                "front_brake": "320 mm kotúč, ABS",
+                "rear_brake": "270 mm kotúč, ABS"
+              },
+              "equipment": {
+                "dashboard": "Digitálny LCD s analógovým rýchlomerom",
+                "navigation": "Kompatibilný s Tripper navigáciou – voliteľné príslušenstvo",
+                "headlight": "LED",
+                "rear_light": "LED",
+                "usb": "USB 2.0 typ A - 5V 2A výstup",
+                "emergency_switch": "Áno",
+                "center_and_side_stand": "Áno",
+                "tool_kit": "Dodávané v pravom bočnom kufri",
+                "side_stand_switch": "Áno"
+              }
+            }
+          },
+          {
+            "id": 16,
+            "model": "Bear 650 - Two Four Nine",
+            "variant": "Two Four Nine",
+            "description": "Nový model Bear 650 - Two Four Nine prináša klasický dizajn spojený s výkonným motorom, ideálnym pre dlhé cesty aj dynamickú jazdu v meste.",
+            "price": "198,990 Kč",
+            "images": [
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine1.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine2.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine3.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine4.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine5.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine6.png",
+              "assets/motorcycle/bear-650/two-four-nine/two-four-nine7.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "214 kg",
+                "wheelbase": "1460 mm",
+                "seat_height": "830 mm",
+                "ground_clearance": "184 mm",
+                "length_width_height": "2216 x 855 x 1160 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13.7 l",
+                "reserve": "3.5 l",
+                "consumption": "4.2 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67.8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9.5:1",
+                "max_power": "35 kW při 7150 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "56.5 Nm při 5150 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 100",
+                "noise_emissions": "76.3 dB(A) při 3575 ot./min",
+                "clutch": "Mokrá, vícelamelová",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Ocelový trubkový dvojitý kolébkový rám",
+                "front_wheel": "100/90-19 M/C 57H",
+                "rear_wheel": "140/80R17 M/C 69H",
+                "front_suspension": "Upside down teleskopická vidlice 43 mm, zdvih předního kola 130 mm",
+                "rear_suspension": "Dvojitý tlumič, zdvih zadního kola 115 mm",
+                "abs": "Duální",
+                "front_brake": "320 mm kotouč, ABS",
+                "rear_brake": "270 mm kotouč, ABS"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "headlight": "LED",
+                "rear_light": "LED",
+                "usb": "USB 2.0 typ A - 5V 2A výstup",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 17,
+            "model": "Himalayan - Salt",
+            "variant": "Salt",
+            "description": "Inspirován a formován neustále se vyvíjejícím a často nepředvídatelným himálajským ekosystémem, se tento motocykl bez námahy přizpůsobuje terénu, okolním podmínkám i jezdci. Nový Himalayan 450, který je evolučním skokem vpřed oproti svému původnímu modelu, jenž bořil mýty. Nově je poháněn motorem Sherpa 450, prvním kapalinou chlazeným motorem společnosti Royal Enfield.",
+            "price": "149,990 Kč",
+            "images": [
+              "assets/motorcycle/himalayan-450/salt/salt.png",
+              "assets/motorcycle/himalayan-450/salt/salt.1.png",
+              "assets/motorcycle/himalayan-450/salt/salt.2.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "196 kg",
+                "wheelbase": "1510 mm",
+                "seat_height": "825mm standard, 845mm zvýšená pozice",
+                "ground_clearance": "230 mm",
+                "length_width_height": "2245 x 852 x 1316 mm"
+              },
+              "capacity": {
+                "fuel_tank": "17 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "3,59 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "84 x 81,5 mm",
+                "cooling_system": "Chlazení chladící směsí",
+                "capacity": "452 cc",
+                "injection_system": "EFI",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "11,5:1",
+                "max_power": "29,44 kW při 8000 ot./min",
+                "max_speed": "151 km/h",
+                "max_torque": "40 Nm při 5500 ot./min",
+                "co2_emissions": "86,80 g/km",
+                "idle_rpm": "1300 ± 100",
+                "noise_emissions": "91,51 dB(A) při 4065 ot./min",
+                "clutch": "Konvenční mokrá asistovaná spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W40 API SN Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý samonosný rám se šroubovanou podsedlovou částí",
+                "front_wheel": "Drátěný výplet - 90/90 - 21\" – 54H (bezdušové)",
+                "rear_wheel": "Drátěný výplet - 140/80R17 – 69H (bezdušové)",
+                "front_suspension": "Teleskopická USD 43mm zdvih 200mm",
+                "rear_suspension": "Linkage Mono-shock zdvih 200mm s nastavením předpětí pružiny",
+                "abs": "Duální, vypínatelné na zadním kole",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "4“ plně digitální TFT panel s plnohodnotnou navigací a ovládáním multimédií",
+                "usb": "USB-C – 5V 2A zásuvka",
+                "riding_modes": "Čtyři jízdní režimy",
+                "lighting": "Kompletní LED světla, zadní sdružená světla",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno pod sedlem vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 17,
+            "model": "Himalayan 450 - Kaza Brown",
+            "variant": "Kaza Brown",
+            "description": "Inspirován a formován neustále se vyvíjejícím a často nepředvídatelným himálajským ekosystémem, se tento motocykl bez námahy přizpůsobuje terénu, okolním podmínkám i jezdci. Nový Himalayan 450, který je evolučním skokem vpřed oproti svému původnímu modelu, jenž bořil mýty. Nově je poháněn motorem Sherpa 450, prvním kapalinou chlazeným motorem společnosti Royal Enfield.",
+            "price": "146,990 Kč",
+            "images": [
+              "assets/motorcycle/himalayan-450/kaza-brown/kaza-brown.png",
+              "assets/motorcycle/himalayan-450/kaza-brown/kaza-brown1.png",
+              "assets/motorcycle/himalayan-450/kaza-brown/kaza-brown2.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "196 kg",
+                "wheelbase": "1510 mm",
+                "seat_height": "825mm standard, 845mm zvýšená pozice",
+                "ground_clearance": "230 mm",
+                "length_width_height": "2245 x 852 x 1316 mm"
+              },
+              "capacity": {
+                "fuel_tank": "17 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "3,59 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "84 x 81,5 mm",
+                "cooling_system": "Chlazení chladící směsí",
+                "capacity": "452 cc",
+                "injection_system": "EFI",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "11,5:1",
+                "max_power": "29,44 kW při 8000 ot./min",
+                "max_speed": "151 km/h",
+                "max_torque": "40 Nm při 5500 ot./min",
+                "co2_emissions": "86,80 g/km",
+                "idle_rpm": "1300 ± 100",
+                "noise_emissions": "91,51 dB(A) při 4065 ot./min",
+                "clutch": "Konvenční mokrá asistovaná spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W40 API SN Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý samonosný rám se šroubovanou podsedlovou částí",
+                "front_wheel": "Drátěný výplet - 90/90 - 21\" – 54H (bezdušové)",
+                "rear_wheel": "Drátěný výplet - 140/80R17 – 69H (bezdušové)",
+                "front_suspension": "Teleskopická USD 43mm zdvih 200mm",
+                "rear_suspension": "Linkage Mono-shock zdvih 200mm s nastavením předpětí pružiny",
+                "abs": "Duální, vypínatelné na zadním kole",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "4“ plně digitální TFT panel s plnohodnotnou navigací a ovládáním multimédií",
+                "usb": "USB-C – 5V 2A zásuvka",
+                "riding_modes": "Čtyři jízdní režimy",
+                "lighting": "Kompletní LED světla, zadní sdružená světla",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno pod sedlem vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 18,
+            "model": "Himalayan 450 - Hanle Black",
+            "variant": "Hanle Black",
+            "description": "Inspirován a formován neustále se vyvíjejícím a často nepředvídatelným himálajským ekosystémem, se tento motocykl bez námahy přizpůsobuje terénu, okolním podmínkám i jezdci. Nový Himalayan 450, který je evolučním skokem vpřed oproti svému původnímu modelu, jenž bořil mýty. Nově je poháněn motorem Sherpa 450, prvním kapalinou chlazeným motorem společnosti Royal Enfield.",
+            "price": "154,990 Kč",
+            "images": [
+              "assets/motorcycle/himalayan-450/hanle-black/hanle-black.png",
+              "assets/motorcycle/himalayan-450/hanle-black/hanle-black1.png",
+              "assets/motorcycle/himalayan-450/hanle-black/hanle-black2.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "196 kg",
+                "wheelbase": "1510 mm",
+                "seat_height": "825mm standard, 845mm zvýšená pozice",
+                "ground_clearance": "230 mm",
+                "length_width_height": "2245 x 852 x 1316 mm"
+              },
+              "capacity": {
+                "fuel_tank": "17 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "3,59 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "84 x 81,5 mm",
+                "cooling_system": "Chlazení chladící směsí",
+                "capacity": "452 cc",
+                "injection_system": "EFI",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "11,5:1",
+                "max_power": "29,44 kW při 8000 ot./min",
+                "max_speed": "151 km/h",
+                "max_torque": "40 Nm při 5500 ot./min",
+                "co2_emissions": "86,80 g/km",
+                "idle_rpm": "1300 ± 100",
+                "noise_emissions": "91,51 dB(A) při 4065 ot./min",
+                "clutch": "Konvenční mokrá asistovaná spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W40 API SN Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý samonosný rám se šroubovanou podsedlovou částí",
+                "front_wheel": "Drátěný výplet - 90/90 - 21\" – 54H (bezdušové)",
+                "rear_wheel": "Drátěný výplet - 140/80R17 – 69H (bezdušové)",
+                "front_suspension": "Teleskopická USD 43mm zdvih 200mm",
+                "rear_suspension": "Linkage Mono-shock zdvih 200mm s nastavením předpětí pružiny",
+                "abs": "Duální, vypínatelné na zadním kole",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "4“ plně digitální TFT panel s plnohodnotnou navigací a ovládáním multimédií",
+                "usb": "USB-C – 5V 2A zásuvka",
+                "riding_modes": "Čtyři jízdní režimy",
+                "lighting": "Kompletní LED světla, zadní sdružená světla",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno pod sedlem vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 19,
+            "model": "Himalayan 450 - Kamet White TubeLess",
+            "variant": "Kamet White",
+            "description": "Inspirován a formován neustále se vyvíjejícím a často nepředvídatelným himálajským ekosystémem, se tento motocykl bez námahy přizpůsobuje terénu, okolním podmínkám i jezdci. Nový Himalayan 450, který je evolučním skokem vpřed oproti svému původnímu modelu, jenž bořil mýty. Nově je poháněn motorem Sherpa 450, prvním kapalinou chlazeným motorem společnosti Royal Enfield.",
+            "price": "160,990 Kč",
+            "images": [
+              "assets/motorcycle/himalayan-450/kamet-white/kamet-white.png",
+              "assets/motorcycle/himalayan-450/kamet-white/kamet-white1.png",
+              "assets/motorcycle/himalayan-450/kamet-white/kamet-white2.png" 
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "196 kg",
+                "wheelbase": "1510 mm",
+                "seat_height": "825mm standard, 845mm zvýšená pozice",
+                "ground_clearance": "230 mm",
+                "length_width_height": "2245 x 852 x 1316 mm"
+              },
+              "capacity": {
+                "fuel_tank": "17 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "3,59 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "84 x 81,5 mm",
+                "cooling_system": "Chlazení chladící směsí",
+                "capacity": "452 cc",
+                "injection_system": "EFI",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "11,5:1",
+                "max_power": "29,44 kW při 8000 ot./min",
+                "max_speed": "151 km/h",
+                "max_torque": "40 Nm při 5500 ot./min",
+                "co2_emissions": "86,80 g/km",
+                "idle_rpm": "1300 ± 100",
+                "noise_emissions": "91,51 dB(A) při 4065 ot./min",
+                "clutch": "Konvenční mokrá asistovaná spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W40 API SN Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý samonosný rám se šroubovanou podsedlovou částí",
+                "front_wheel": "Drátěný výplet - 90/90 - 21\" – 54H (bezdušové)",
+                "rear_wheel": "Drátěný výplet - 140/80R17 – 69H (bezdušové)",
+                "front_suspension": "Teleskopická USD 43mm zdvih 200mm",
+                "rear_suspension": "Linkage Mono-shock zdvih 200mm s nastavením předpětí pružiny",
+                "abs": "Duální, vypínatelné na zadním kole",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "4“ plně digitální TFT panel s plnohodnotnou navigací a ovládáním multimédií",
+                "usb": "USB-C – 5V 2A zásuvka",
+                "riding_modes": "Čtyři jízdní režimy",
+                "lighting": "Kompletní LED světla, zadní sdružená světla",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno pod sedlem vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 20,
+            "model": "Himalayan 450 - Kamet White",
+            "variant": "Kamet White",
+            "description": "Inspirován a formován neustále se vyvíjejícím a často nepředvídatelným himálajským ekosystémem, se tento motocykl bez námahy přizpůsobuje terénu, okolním podmínkám i jezdci. Nový Himalayan 450, který je evolučním skokem vpřed oproti svému původnímu modelu, jenž bořil mýty. Nově je poháněn motorem Sherpa 450, prvním kapalinou chlazeným motorem společnosti Royal Enfield.",
+            "price": "160,990 Kč",
+            "images": [
+              "assets/motorcycle/himalayan-450/kamet-white-tube/km-tube.png",
+              "assets/motorcycle/himalayan-450/kamet-white-tube/km-tube2.png",
+              "assets/motorcycle/himalayan-450/kamet-white-tube/km-tube1.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "196 kg",
+                "wheelbase": "1510 mm",
+                "seat_height": "825mm standard, 845mm zvýšená pozice",
+                "ground_clearance": "230 mm",
+                "length_width_height": "2245 x 852 x 1316 mm"
+              },
+              "capacity": {
+                "fuel_tank": "17 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "3,59 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "84 x 81,5 mm",
+                "cooling_system": "Chlazení chladící směsí",
+                "capacity": "452 cc",
+                "injection_system": "EFI",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "11,5:1",
+                "max_power": "29,44 kW při 8000 ot./min",
+                "max_speed": "151 km/h",
+                "max_torque": "40 Nm při 5500 ot./min",
+                "co2_emissions": "86,80 g/km",
+                "idle_rpm": "1300 ± 100",
+                "noise_emissions": "91,51 dB(A) při 4065 ot./min",
+                "clutch": "Konvenční mokrá asistovaná spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W40 API SN Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý samonosný rám se šroubovanou podsedlovou částí",
+                "front_wheel": "Drátěný výplet - 90/90 - 21\" – 54H (bezdušové)",
+                "rear_wheel": "Drátěný výplet - 140/80R17 – 69H (bezdušové)",
+                "front_suspension": "Teleskopická USD 43mm zdvih 200mm",
+                "rear_suspension": "Linkage Mono-shock zdvih 200mm s nastavením předpětí pružiny",
+                "abs": "Duální, vypínatelné na zadním kole",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "4“ plně digitální TFT panel s plnohodnotnou navigací a ovládáním multimédií",
+                "usb": "USB-C – 5V 2A zásuvka",
+                "riding_modes": "Čtyři jízdní režimy",
+                "lighting": "Kompletní LED světla, zadní sdružená světla",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno pod sedlem vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 21,
+            "model": "Himalayan 450 - Poppy Blue",
+            "variant": "Poppy Blue",
+            "description": "Inspirován a formován neustále se vyvíjejícím a často nepředvídatelným himálajským ekosystémem, se tento motocykl bez námahy přizpůsobuje terénu, okolním podmínkám i jezdci. Nový Himalayan 450, který je evolučním skokem vpřed oproti svému původnímu modelu, jenž bořil mýty. Nově je poháněn motorem Sherpa 450, prvním kapalinou chlazeným motorem společnosti Royal Enfield.",
+            "price": "149,990 Kč",
+            "images": [
+              "assets/motorcycle/himalayan-450/poppy-blue/poppy-blue.png",
+              "assets/motorcycle/himalayan-450/poppy-blue/poppy-blue.1.png",
+              "assets/motorcycle/himalayan-450/poppy-blue/poppy-blue.2.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "196 kg",
+                "wheelbase": "1510 mm",
+                "seat_height": "825mm standard, 845mm zvýšená pozice",
+                "ground_clearance": "230 mm",
+                "length_width_height": "2245 x 852 x 1316 mm"
+              },
+              "capacity": {
+                "fuel_tank": "17 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "3,59 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "84 x 81,5 mm",
+                "cooling_system": "Chlazení chladící směsí",
+                "capacity": "452 cc",
+                "injection_system": "EFI",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "11,5:1",
+                "max_power": "29,44 kW při 8000 ot./min",
+                "max_speed": "151 km/h",
+                "max_torque": "40 Nm při 5500 ot./min",
+                "co2_emissions": "86,80 g/km",
+                "idle_rpm": "1300 ± 100",
+                "noise_emissions": "91,51 dB(A) při 4065 ot./min",
+                "clutch": "Konvenční mokrá asistovaná spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W40 API SN Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý samonosný rám se šroubovanou podsedlovou částí",
+                "front_wheel": "Drátěný výplet - 90/90 - 21\" – 54H (bezdušové)",
+                "rear_wheel": "Drátěný výplet - 140/80R17 – 69H (bezdušové)",
+                "front_suspension": "Teleskopická USD 43mm zdvih 200mm",
+                "rear_suspension": "Linkage Mono-shock zdvih 200mm s nastavením předpětí pružiny",
+                "abs": "Duální, vypínatelné na zadním kole",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "4“ plně digitální TFT panel s plnohodnotnou navigací a ovládáním multimédií",
+                "usb": "USB-C – 5V 2A zásuvka",
+                "riding_modes": "Čtyři jízdní režimy",
+                "lighting": "Kompletní LED světla, zadní sdružená světla",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno pod sedlem vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 22,
+            "model": "Continental GT 650 - British Racing Green",
+            "variant": "British Racing Green",
+            "description": "Moderní interpretace kulturní ikony, která je součástí původní britské \"kavárny\", je výrazem svobodného ducha a deklarace stylu. Nový Continental GT 650 Twin zachycuje ducha původního Continental GT 250. Ikona designu, dokonalá směs tradice a moderny s dychtivým přístupem a závodním posedem se všemi znaky tradičního Cafe Racera.",
+            "price": "189,990 Kč",
+            "images": [
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green1.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green2.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green3.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green4.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green5.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green6.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green7.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green8.png",
+              "assets/motorcycle/gt-650/british-racing-green/british-racing-green9.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "212 kg",
+                "wheelbase": "1398 mm",
+                "seat_height": "820 mm",
+                "ground_clearance": "174 mm",
+                "length_width_height": "2119 x 745 x 1067 mm"
+              },
+              "capacity": {
+                "fuel_tank": "12,5 ± 0,5 litru",
+                "reserve": "3,1 ± 0,5 litru",
+                "consumption": "4,3 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,9 kW při 7150 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5150 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 80",
+                "noise_emissions": "89 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+                "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+                "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+                "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+                "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+                "emergency_switch": "Ano",
+                "side_stand": "Ano (bez centrálního stojanu)",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 23,
+            "model": "Continental GT 650 - Mr Clean",
+            "variant": "Mr Clean",
+            "description": "Moderní interpretace kulturní ikony, která je součástí původní britské \"kavárny\", je výrazem svobodného ducha a deklarace stylu. Nový Continental GT 650 Twin zachycuje ducha původního Continental GT 250. Ikona designu, dokonalá směs tradice a moderny s dychtivým přístupem a závodním posedem se všemi znaky tradičního Cafe Racera.",
+            "price": "198,998 Kč",
+            "images": [
+              "assets/motorcycle/gt-650/mr-clean/mr-clean1.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean2.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean3.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean4.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean5.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean6.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean7.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean8.png",
+              "assets/motorcycle/gt-650/mr-clean/mr-clean9.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "212 kg",
+                "wheelbase": "1398 mm",
+                "seat_height": "820 mm",
+                "ground_clearance": "174 mm",
+                "length_width_height": "2119 x 745 x 1067 mm"
+              },
+              "capacity": {
+                "fuel_tank": "12,5 ± 0,5 litru",
+                "reserve": "3,1 ± 0,5 litru",
+                "consumption": "4,3 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,9 kW při 7150 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5150 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 80",
+                "noise_emissions": "89 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+                "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+                "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+                "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+                "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+                "emergency_switch": "Ano",
+                "side_stand": "Ano (bez centrálního stojanu)",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 24,
+            "model": "Continental GT 650 - Rocker Red",
+            "variant": "Rocker Red",
+            "description": "Moderní interpretace kulturní ikony, která je součástí původní britské \"kavárny\", je výrazem svobodného ducha a deklarace stylu. Nový Continental GT 650 Twin zachycuje ducha původního Continental GT 250. Ikona designu, dokonalá směs tradice a moderny s dychtivým přístupem a závodním posedem se všemi znaky tradičního Cafe Racera.",
+            "price": "187 990 Kč",
+            "images": [
+              "assets/motorcycle/gt-650/rocker-red/rocker-red1.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red2.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red3.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red4.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red5.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red6.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red7.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red8.png",
+              "assets/motorcycle/gt-650/rocker-red/rocker-red9.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "212 kg",
+                "wheelbase": "1398 mm",
+                "seat_height": "820 mm",
+                "ground_clearance": "174 mm",
+                "length_width_height": "2119 x 745 x 1067 mm"
+              },
+              "capacity": {
+                "fuel_tank": "12,5 ± 0,5 litru",
+                "reserve": "3,1 ± 0,5 litru",
+                "consumption": "4,3 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,9 kW při 7150 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5150 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 80",
+                "noise_emissions": "89 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+                "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+                "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+                "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+                "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+                "emergency_switch": "Ano",
+                "side_stand": "Ano (bez centrálního stojanu)",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 25,
+            "model": "Continental GT 650 - Ventura Storm",
+            "variant": "Ventura Storm",
+            "description": "Moderní interpretace kulturní ikony, která je součástí původní britské \"kavárny\", je výrazem svobodného ducha a deklarace stylu. Nový Continental GT 650 Twin zachycuje ducha původního Continental GT 250. Ikona designu, dokonalá směs tradice a moderny s dychtivým přístupem a závodním posedem se všemi znaky tradičního Cafe Racera.",
+            "price": "187,990 Kč",
+            "images": [
+        
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm1.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm2.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm3.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm4.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm5.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm6.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm7.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm8.png",
+              "assets/motorcycle/gt-650/ventura-storm/ventura-storm9.png"
+            ],
+            "specifications": {
+              "dimensions": {
+                "weight": "212 kg",
+                "wheelbase": "1398 mm",
+                "seat_height": "820 mm",
+                "ground_clearance": "174 mm",
+                "length_width_height": "2119 x 745 x 1067 mm"
+              },
+              "capacity": {
+                "fuel_tank": "12,5 ± 0,5 litru",
+                "reserve": "3,1 ± 0,5 litru",
+                "consumption": "4,3 l/100 km"
+              },
+              "engine": {
+                "cylinders": 2,
+                "bore_stroke": "78 x 67,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "648 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 4,
+                "compression_ratio": "9,5:1",
+                "max_power": "34,9 kW při 7150 ot./min",
+                "max_speed": "164 km/h",
+                "max_torque": "52,3 Nm při 5150 ot./min",
+                "co2_emissions": "99 g/km",
+                "idle_rpm": "1200 ± 80",
+                "noise_emissions": "89 dB(A) při 3575 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "6-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 10W50 API SL Jaso MA2 Fully synthetic"
+              },
+              "frame_chassis_brakes": {
+                "frame_type": "Dvojitý kolébkový rám s dělenou spodní trubkou",
+                "front_wheel": "Drátěný výplet - 100/90 - 18\" – 56H",
+                "rear_wheel": "Drátěný výplet - 130/70 - 18\" – 63H",
+                "front_suspension": "Teleskopická vidlice 41mm se zdvihem 110mm zdvihu",
+                "rear_suspension": "Dva emulzní tlumiče s nastavitelným předpětím 88mm zdvihu",
+                "abs": "Duální",
+                "front_brake": "320mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "240mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Analogovým rychloměrem a otáčkoměr LCD ODO",
+                "emergency_switch": "Ano",
+                "side_stand": "Ano (bez centrálního stojanu)",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 26,
+            "model": "HNTR 350 - Dapper Ash",
+            "variant": "Dapper Ash",
+            "description": "Kratší rozvor, menší váha a sevřenější geometrie, robustní rám HNTR vybavený sadou super ovladatelných 17” kol, módní estetika v retro stylu. V srdci HNTR bije dlouhozdvihový motor řady J s objemem 350 ccm se vstřikováním paliva, který nabízí hladší jízdu, vyšší otáčky a obrovský točivý moment. Ve spojení s pevným rámem a funkčním zavěšením má HNTR 350 ten správný výkon.",
+            "price": "115,990 Kč",
+            "images": [
+              "assets/motorcycle/hntr/grey-green/green-grey.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám"
+              },
+              "dimensions": {
+                "weight": "181 kg",
+                "wheelbase": "1370 mm",
+                "seat_height": "790 mm",
+                "ground_clearance": "150,5 mm",
+                "length_width_height": "2100 x 800 x 1050 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,65 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "64,03 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "76,1 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Loukoťové kolo - 110/70 - 17\" - 54P",
+                "rear_wheel": "Loukoťové kolo - 140/70 - 17\" - 66P",
+                "front_suspension": "Teleskopická vidlice 41mm - 130mm zdvih",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím – 102mm zdvih",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 27,
+            "model": "HNTR 350 - Rebel Black",
+            "variant": "Rebel Black",
+            "description": "Kratší rozvor, menší váha a sevřenější geometrie, robustní rám HNTR vybavený sadou super ovladatelných 17” kol, módní estetika v retro stylu. V srdci HNTR bije dlouhozdvihový motor řady J s objemem 350 ccm se vstřikováním paliva, který nabízí hladší jízdu, vyšší otáčky a obrovský točivý moment. Ve spojení s pevným rámem a funkčním zavěšením má HNTR 350 ten správný výkon.",
+            "price": "117,990 Kč",
+            "images": [
+              "assets/motorcycle/hntr/antique/antique.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám"
+              },
+              "dimensions": {
+                "weight": "181 kg",
+                "wheelbase": "1370 mm",
+                "seat_height": "790 mm",
+                "ground_clearance": "150,5 mm",
+                "length_width_height": "2100 x 800 x 1050 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,65 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "64,03 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "76,1 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Loukoťové kolo - 110/70 - 17\" - 54P",
+                "rear_wheel": "Loukoťové kolo - 140/70 - 17\" - 66P",
+                "front_suspension": "Teleskopická vidlice 41mm - 130mm zdvih",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím – 102mm zdvih",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 28,
+            "model": "HNTR 350 - Dapper White",
+            "variant": "Dapper White",
+            "description": "Kratší rozvor, menší váha a sevřenější geometrie, robustní rám HNTR vybavený sadou super ovladatelných 17” kol, módní estetika v retro stylu. V srdci HNTR bije dlouhozdvihový motor řady J s objemem 350 ccm se vstřikováním paliva, který nabízí hladší jízdu, vyšší otáčky a obrovský točivý moment. Ve spojení s pevným rámem a funkčním zavěšením má HNTR 350 ten správný výkon.",
+            "price": "115,990 Kč",
+            "images": [
+              "assets/motorcycle/hntr/ash-white/ash-white.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám"
+              },
+              "dimensions": {
+                "weight": "181 kg",
+                "wheelbase": "1370 mm",
+                "seat_height": "790 mm",
+                "ground_clearance": "150,5 mm",
+                "length_width_height": "2100 x 800 x 1050 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,65 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "64,03 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "76,1 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Loukoťové kolo - 110/70 - 17\" - 54P",
+                "rear_wheel": "Loukoťové kolo - 140/70 - 17\" - 66P",
+                "front_suspension": "Teleskopická vidlice 41mm - 130mm zdvih",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím – 102mm zdvih",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 29,
+            "model": "HNTR 350 - Rebel Red",
+            "variant": "Rebel Red",
+            "description": "Kratší rozvor, menší váha a sevřenější geometrie, robustní rám HNTR vybavený sadou super ovladatelných 17” kol, módní estetika v retro stylu. V srdci HNTR bije dlouhozdvihový motor řady J s objemem 350 ccm se vstřikováním paliva, který nabízí hladší jízdu, vyšší otáčky a obrovský točivý moment. Ve spojení s pevným rámem a funkčním zavěšením má HNTR 350 ten správný výkon.",
+            "price": "117,990 Kč",
+            "images": [
+              "assets/motorcycle/hntr/gtred/gtred.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám"
+              },
+              "dimensions": {
+                "weight": "181 kg",
+                "wheelbase": "1370 mm",
+                "seat_height": "790 mm",
+                "ground_clearance": "150,5 mm",
+                "length_width_height": "2100 x 800 x 1050 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,65 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "64,03 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "76,1 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Loukoťové kolo - 110/70 - 17\" - 54P",
+                "rear_wheel": "Loukoťové kolo - 140/70 - 17\" - 66P",
+                "front_suspension": "Teleskopická vidlice 41mm - 130mm zdvih",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím – 102mm zdvih",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 30,
+            "model": "HNTR 350 - Rebel Blue",
+            "variant": "Rebel Blue",
+            "description": "Kratší rozvor, menší váha a sevřenější geometrie, robustní rám HNTR vybavený sadou super ovladatelných 17” kol, módní estetika v retro stylu. V srdci HNTR bije dlouhozdvihový motor řady J s objemem 350 ccm se vstřikováním paliva, který nabízí hladší jízdu, vyšší otáčky a obrovský točivý moment. Ve spojení s pevným rámem a funkčním zavěšením má HNTR 350 ten správný výkon.",
+            "price": "117,990 Kč",
+            "images": [
+              "assets/motorcycle/hntr/lagoon-blue/lagoon-blue.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám"
+              },
+              "dimensions": {
+                "weight": "181 kg",
+                "wheelbase": "1370 mm",
+                "seat_height": "790 mm",
+                "ground_clearance": "150,5 mm",
+                "length_width_height": "2100 x 800 x 1050 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,65 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "64,03 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "76,1 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Loukoťové kolo - 110/70 - 17\" - 54P",
+                "rear_wheel": "Loukoťové kolo - 140/70 - 17\" - 66P",
+                "front_suspension": "Teleskopická vidlice 41mm - 130mm zdvih",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím – 102mm zdvih",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 31,
+            "model": "HNTR 350 - Dapper Grey",
+            "variant": "Dapper Grey",
+            "description": "Kratší rozvor, menší váha a sevřenější geometrie, robustní rám HNTR vybavený sadou super ovladatelných 17” kol, módní estetika v retro stylu. V srdci HNTR bije dlouhozdvihový motor řady J s objemem 350 ccm se vstřikováním paliva, který nabízí hladší jízdu, vyšší otáčky a obrovský točivý moment. Ve spojení s pevným rámem a funkčním zavěšením má HNTR 350 ten správný výkon.",
+            "price": "111,599 Kč",
+            "images": [
+              "assets/motorcycle/hntr/mayhem/mayhem.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám"
+              },
+              "dimensions": {
+                "weight": "181 kg",
+                "wheelbase": "1370 mm",
+                "seat_height": "790 mm",
+                "ground_clearance": "150,5 mm",
+                "length_width_height": "2100 x 800 x 1050 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,65 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "64,03 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "76,1 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Loukoťové kolo - 110/70 - 17\" - 54P",
+                "rear_wheel": "Loukoťové kolo - 140/70 - 17\" - 66P",
+                "front_suspension": "Teleskopická vidlice 41mm - 130mm zdvih",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím – 102mm zdvih",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 32,
+            "model": "Bullet 350 - Black Gold",
+            "variant": "Black Gold",
+            "description": "Pokud někdy nějaký motocykl obstál ve zkoušce času, pak je to legendární Royal Enfield Bullet. V roce 1932, kdy byl představen, patřily jeho pokročilé vlastnosti ke špičce v konstrukci motocyklů. Bullet je nejen nejdéle vyráběným modelem motocyklu na světě, ale stal se také součástí indické společenské struktury, dědictvím předávaným z generace na generaci a dal vzniknout více než 1000 klubových jezdců. Pro tyto věrné nadšence není Bullet Meri Jaan (\"Bullet Is My Life\") jen zrnitým videoklipem a chytlavou písní, ale ztělesňuje mocnou symboliku, která představuje autenticitu, stoicismus, spolehlivost a individualitu.",
+            "price": "136,990 Kč",
+            "images": [
+              "assets/motorcycle/bullet-350/black-gold/black-gold1.png",
+              "assets/motorcycle/bullet-350/black-gold/black-gold3.png",
+              "assets/motorcycle/bullet-350/black-gold/black-gold2.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám se spodní trubkou"
+              },
+              "dimensions": {
+                "weight": "195 kg",
+                "wheelbase": "1390 mm",
+                "seat_height": "805 mm",
+                "ground_clearance": "170 mm",
+                "length_width_height": "2110 x 785 x 1125 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,63 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "63,4 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "89 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Drátěný výplet - 100/90 - 19\" - 57P",
+                "rear_wheel": "Drátěný výplet - 120/80 - 18\" - 62P",
+                "front_suspension": "Teleskopická vidlice o průměru 41mm a zdvihu 130mm",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 33,
+            "model": "Bullet 350 - Standard Black",
+            "variant": "Standard Black",
+            "description": "Pokud někdy nějaký motocykl obstál ve zkoušce času, pak je to legendární Royal Enfield Bullet. V roce 1932, kdy byl představen, patřily jeho pokročilé vlastnosti ke špičce v konstrukci motocyklů. Bullet je nejen nejdéle vyráběným modelem motocyklu na světě, ale stal se také součástí indické společenské struktury, dědictvím předávaným z generace na generaci a dal vzniknout více než 1000 klubových jezdců. Pro tyto věrné nadšence není Bullet Meri Jaan (\"Bullet Is My Life\") jen zrnitým videoklipem a chytlavou písní, ale ztělesňuje mocnou symboliku, která představuje autenticitu, stoicismus, spolehlivost a individualitu.",
+            "price": "133,990 Kč",
+            "images": [
+              "assets/motorcycle/bullet-350/standard-black/standard-black.png",
+              "assets/motorcycle/bullet-350/standard-black/standard-black1.png",
+              "assets/motorcycle/bullet-350/standard-black/standard-black2.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám se spodní trubkou"
+              },
+              "dimensions": {
+                "weight": "195 kg",
+                "wheelbase": "1390 mm",
+                "seat_height": "805 mm",
+                "ground_clearance": "170 mm",
+                "length_width_height": "2110 x 785 x 1125 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,63 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "63,4 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "89 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Drátěný výplet - 100/90 - 19\" - 57P",
+                "rear_wheel": "Drátěný výplet - 120/80 - 18\" - 62P",
+                "front_suspension": "Teleskopická vidlice o průměru 41mm a zdvihu 130mm",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          },
+          {
+            "id": 34,
+            "model": "Bullet 350 - Standard Maroon",
+            "variant": "Standard Maroon",
+            "description": "Pokud někdy nějaký motocykl obstál ve zkoušce času, pak je to legendární Royal Enfield Bullet. V roce 1932, kdy byl představen, patřily jeho pokročilé vlastnosti ke špičce v konstrukci motocyklů. Bullet je nejen nejdéle vyráběným modelem motocyklu na světě, ale stal se také součástí indické společenské struktury, dědictvím předávaným z generace na generaci a dal vzniknout více než 1000 klubových jezdců. Pro tyto věrné nadšence není Bullet Meri Jaan (\"Bullet Is My Life\") jen zrnitým videoklipem a chytlavou písní, ale ztělesňuje mocnou symboliku, která představuje autenticitu, stoicismus, spolehlivost a individualitu.",
+            "price": "133,990 Kč",
+            "images": [
+              "assets/motorcycle/bullet-350/standart-maroon/standart-maroon.png",
+              "assets/motorcycle/bullet-350/standart-maroon/standart-maroon1.png",
+              "assets/motorcycle/bullet-350/standart-maroon/standart-maroon2.png"
+            ],
+            "specifications": {
+              "frame": {
+                "frame_type": "Dvojitý páteřový rám se spodní trubkou"
+              },
+              "dimensions": {
+                "weight": "195 kg",
+                "wheelbase": "1390 mm",
+                "seat_height": "805 mm",
+                "ground_clearance": "170 mm",
+                "length_width_height": "2110 x 785 x 1125 mm"
+              },
+              "capacity": {
+                "fuel_tank": "13 ± 0,5 litru",
+                "reserve": "4 ± 0,5 litru",
+                "consumption": "2,63 l/100 km"
+              },
+              "engine": {
+                "cylinders": 1,
+                "bore_stroke": "72 x 85,8 mm",
+                "cooling_system": "Chlazení vzduchem a olejem",
+                "capacity": "349,34 cc",
+                "injection_system": "ECU",
+                "valves_per_cylinder": 2,
+                "compression_ratio": "9,5:1",
+                "max_power": "14,87 kW při 6100 ot./min",
+                "max_speed": "114 km/h (4. rychlostní stupeň)",
+                "max_torque": "27 Nm při 4000 ot./min",
+                "co2_emissions": "63,4 g/km",
+                "idle_rpm": "1050 ± 100",
+                "noise_emissions": "89 dB(A) při 3050 ot./min",
+                "clutch": "Konvenční mokrá spojka",
+                "secondary_transmission": "Řetězem",
+                "gearbox": "5-rychlostní",
+                "starting_system": "Elektrický",
+                "engine_oil": "SAE 15W50 API SL Jaso MA2 Polosyntetický"
+              },
+              "frame_chassis_brakes": {
+                "front_wheel": "Drátěný výplet - 100/90 - 19\" - 57P",
+                "rear_wheel": "Drátěný výplet - 120/80 - 18\" - 62P",
+                "front_suspension": "Teleskopická vidlice o průměru 41mm a zdvihu 130mm",
+                "rear_suspension": "Dva emulzní tlumiče s 6stupňovým nastavitelným předpětím",
+                "abs": "Duální",
+                "front_brake": "300mm kotouč s dvoupístkovým plovoucím třmenem",
+                "rear_brake": "270mm kotouč s jednopístkovým plovoucím třmenem"
+              },
+              "equipment": {
+                "dashboard": "Digitální LCD s analogovým rychloměrem",
+                "navigation": "Kompatibilní s Tripper navigací – volitelné příslušenství (v závislosti na dostupnosti)",
+                "emergency_switch": "Ano",
+                "center_and_side_stand": "Ano",
+                "tool_kit": "Dodáváno v pravé boční skříni vozidla",
+                "side_stand_switch": "Ano"
+              }
+            }
+          }
+
+
+      
+  ]

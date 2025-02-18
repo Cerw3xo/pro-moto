@@ -1,0 +1,379 @@
+// Colors
+$background: #ffffff;
+$second-bg: #f7f7f7;
+$text-color: #000000;
+$border-color: #e0e0e0;
+$gold-color: #e6ca4a;
+
+body {
+  background-color: $background;
+  color: $text-color;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  padding: 0 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .hero-content {
+    position: relative;
+    width: 90%;
+    top: 2%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    > h1 {
+      font-size: 4rem;
+      line-height: 1.2;
+      width: 90%;
+      margin-bottom: 1.5rem;
+      font-weight: 200;
+    }
+    > p {
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.2;
+      width: 78%;
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      strong {
+        line-height: 1.7;
+        position: relative;
+        top: -0.5rem;
+      }
+    }
+    > a {
+      background-color: $gold-color;
+      color: $text-color;
+      border-radius: 0.1rem;
+      font-weight: 600;
+      padding: 0.4rem 0.7rem;
+      font-size: 1rem;
+      border: 1px solid black;
+
+      &:hover {
+        color: $background;
+        background-color: darken($gold-color, 10%);
+      }
+    }
+  }
+}
+
+.products {
+  padding: 2rem 12% 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 3rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: lighten($gold-color, 25%);
+    width: 70%;
+    bottom: -0.7rem;
+  }
+
+  .product-header {
+    flex: 1;
+
+    > h2 {
+      font-size: 3.5rem;
+      width: 95%;
+      line-height: 1.5;
+    }
+  }
+  .product-text {
+    flex: 1;
+    width: 100%;
+
+    > h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    > p {
+      font-size: 1.3rem;
+      margin-bottom: 1.9rem;
+    }
+    > a {
+      position: absolute;
+      background-color: $gold-color;
+      color: $text-color;
+      border: 1px solid $text-color;
+      border-radius: 0.1rem;
+      font-weight: 600;
+      padding: 0.4rem 0.7rem;
+      font-size: 1rem;
+
+      &:hover {
+        color: $background;
+        background-color: darken($gold-color, 10%);
+      }
+    }
+  }
+}
+
+.about {
+  position: relative;
+  padding: 7rem 12% 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: lighten($gold-color, 25%);
+    width: 70%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  > h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    width: 75%;
+  }
+  > p {
+    font-size: 1.5rem;
+    width: 60%;
+    margin-bottom: 3.5rem;
+    line-height: 1.7;
+  }
+  > a {
+    background-color: $gold-color;
+    color: $text-color;
+    border: 1px solid black;
+    border-radius: 0.1rem;
+    font-weight: 600;
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $background;
+      background-color: darken($gold-color, 10%);
+      border-color: lighten(#35322c, 20%);
+    }
+  }
+}
+
+.testing {
+  padding: 7rem 12% 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+  > h2 {
+    font-size: 3rem;
+    width: 75%;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      height: 5rem;
+    }
+  }
+
+  > p {
+    font-size: 1.5rem;
+    width: 75%;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+  }
+
+  > a {
+    background-color: $gold-color;
+    color: $text-color;
+    border: 1px solid black;
+    border-radius: 0.1rem;
+    font-weight: 600;
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $background;
+      background-color: darken($gold-color, 10%);
+      border-color: lighten(#35322c, 20%);
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 95%;
+  }
+
+  .hero {
+    padding: 0 10%;
+
+    .hero-content {
+      width: 100%;
+      h1 {
+        width: 100%;
+      }
+    }
+  }
+
+  .products {
+    padding: 2rem 10% 7rem;
+
+    .product-header {
+      > h2 {
+        width: 100%;
+      }
+    }
+  }
+
+  .about {
+    padding: 7rem 10%;
+  }
+
+  .testing {
+    padding: 7rem 10%;
+
+    > p {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+
+  .hero {
+    padding: 0 8%;
+  }
+
+  .about {
+    padding: 7rem 8%;
+  }
+
+  .products {
+    padding: 2rem 8% 7rem;
+  }
+
+  .testing {
+    padding: 7rem 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+
+  .hero {
+    padding: 0 4%;
+    height: 100dvh;
+  }
+
+  .products {
+    padding: 0 4% 7rem;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .product-header {
+      > h2 {
+        width: 100%;
+        max-width: 30rem;
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 11rem;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          height: 2px;
+          width: 95%;
+          bottom: -1rem;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: $gold-color;
+        }
+      }
+    }
+
+    .product-text {
+      width: 90%;
+
+      > h3 {
+        font-size: 2.7rem;
+        margin-bottom: 4rem;
+      }
+      > p {
+        margin-bottom: 5rem;
+        font-size: 1.7rem;
+        width: 95%;
+      }
+    }
+  }
+
+  .about {
+    padding: 7rem 4%;
+    align-items: flex-end;
+    text-align: right;
+
+    > h2 {
+      margin-bottom: 4rem;
+    }
+
+    > p {
+      width: 95%;
+      font-size: 1.7rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  .testing {
+    padding: 7rem 4%;
+  }
+}
+
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+
+  .hero {
+    padding: 0 16%;
+  }
+
+  .about {
+    padding: 7rem 16%;
+  }
+
+  .products {
+    padding: 2rem 16% 7rem;
+  }
+  .testing {
+    padding: 7rem 16%;
+  }
+}

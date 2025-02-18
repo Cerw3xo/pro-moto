@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+::-moz-selection {
+  background-color: #f0f0f0;
+  color: #181716;
+}
+
+::selection {
+  background-color: #f0f0f0;
+  color: #181716;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+li,
+figure,
+fieldset,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Black Ops One", serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline: none;
+}
+
+header {
+  position: fixed;
+  padding: 0 12%;
+  top: 1rem;
+  z-index: 99;
+  width: 100vw;
+  transition: 0.3s ease;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.activeHeader {
+  top: 0;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header .top-stripe {
+  font-family: "Black Ops One", serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.btn3 {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+}
+
+header nav ul a.sel {
+  color: #e6ca4a;
+}
+
+header nav ul a {
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+}
+
+header .top-stripe {
+  font-family: "Black Ops One", serif;
+  position: relative;
+}
+
+header .top-stripe .logo img {
+  position: absolute;
+  top: -0.2rem;
+  width: 5rem;
+  height: auto;
+  z-index: 999;
+}
+
+header .top-stripe .logo::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 39px;
+  width: 7.3rem;
+  height: 4rem;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  z-index: 99;
+}
+
+header .top-stripe .badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .top-stripe .badge img {
+  filter: brightness(0) invert(1);
+}
+
+header .bottom-stripe {
+  margin-top: 1rem;
+  height: 0.9rem;
+  top: 1.6rem;
+  left: 0;
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  border-radius: 0.1rem;
+}
+
+footer {
+  position: relative;
+  padding: 1rem 12%;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+footer > h3 {
+  font-size: 1.5rem;
+}
+
+footer > a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: block;
+}
+
+footer .footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+footer .footer-contact .footer-address > h3 {
+  font-size: 1.1rem;
+}
+footer .footer-contact .footer-address > p {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer .footer-contact .footer-address .company {
+  font-weight: 700;
+  text-align: center;
+}
+
+footer .footer-contact .footer-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+footer .footer-contact .footer-opening-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+footer .footer-contact .footer-opening-hours > H3 {
+  font-size: 1.1rem;
+}
+
+footer .footer-contact .footer-opening-hours ul li {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer .footer-line {
+  content: "";
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 1px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1210px) {
+  header {
+    padding: 0 10%;
+  }
+  header .top-stripe {
+    padding: 0.4rem 0;
+  }
+  header .top-stripe .logo img {
+    width: 4.5rem;
+  }
+  header .top-stripe .logo::before {
+    left: 33px;
+  }
+  header .bottom-stripe {
+    top: 1.5rem;
+  }
+  header nav ul {
+    margin-left: 1rem;
+    gap: 1rem;
+  }
+  footer {
+    padding: 1rem 10%;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 83%;
+  }
+  header {
+    padding: 0 8%;
+  }
+  header .top-stripe {
+    padding: 0.3rem 0;
+  }
+  header .top-stripe .logo img {
+    width: 3.9rem;
+  }
+  header .top-stripe .logo::before {
+    width: 5rem;
+    left: 26px;
+  }
+  header .top-stripe .badge img {
+    font-size: 0.5rem;
+  }
+  header nav ul {
+    margin-left: 4rem;
+    gap: 0.7rem;
+  }
+  footer {
+    padding: 1rem 8%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  header {
+    padding: 0 4%;
+    top: 0.5rem;
+  }
+  header .top-stripe .logo img {
+    width: 3.9rem;
+    left: 0.7rem;
+    top: -0.1rem;
+  }
+  header .top-stripe .logo::before {
+    left: 30px;
+    top: 21px;
+  }
+  header .top-stripe .badge {
+    margin-right: 15%;
+  }
+  header #nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 3.8rem;
+    right: 0;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 300px;
+    height: -moz-max-content;
+    height: max-content;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    padding: 3rem 4rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 1px 8px 8px 3px rgba(0, 0, 0, 0.1);
+  }
+  header #nav-menu ul {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    justify-content: center;
+    margin-left: 0;
+  }
+  header #nav-menu ul a {
+    color: #000000;
+    font-size: 1.2rem;
+  }
+  header #nav-menu.active {
+    transform: translateX(0);
+  }
+  header .bottom-stripe {
+    top: 1.9rem;
+  }
+  header .btn3 {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 999;
+    left: 91%;
+    top: 0;
+  }
+  header .btn3 .icon {
+    position: absolute;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    top: 1.1rem;
+    left: 12%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+  }
+  header .btn3 .icon:before,
+  header .btn3 .icon:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s;
+  }
+  header .btn3 .icon:before {
+    top: -1px;
+  }
+  header .btn3 .icon:after {
+    top: 6px;
+  }
+  header .btn3.open .icon {
+    background: transparent;
+  }
+  header .btn3.open .icon:before {
+    transform: rotate(45deg) translate(3px, 2px);
+  }
+  header .btn3.open .icon:after {
+    transform: rotate(-45deg) translate(3px, -2px);
+  }
+  header .btn3:hover {
+    cursor: pointer;
+  }
+  footer {
+    padding: 1rem 4%;
+  }
+  footer .footer-contact {
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (min-width: 1729px) {
+  html {
+    font-size: 125%;
+  }
+  header {
+    padding: 0 16%;
+  }
+  header .top-stripe .logo::before {
+    top: 31px;
+    left: 49px;
+  }
+  footer {
+    padding: 1rem 16%;
+  }
+}/*# sourceMappingURL=base.css.map */
