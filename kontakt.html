@@ -63,7 +63,7 @@
   <header id="header">
     <div class="top-stripe">
       <div class="logo">
-        <img src="assets/Logo.svg" alt="">
+        <img src="assets/Logo.svg" alt="MT-crew logo" fetchpriority="high">
       </div>
       <nav id="nav-menu">
         <ul>
@@ -77,10 +77,13 @@
       </nav>
 
       <div class="badge">
-        <a href=""><img data-aos="flip-left" data-aos-delay="800" src="assets/fb.svg" alt="facebook social icon"> </a>
-        <a href=""> <img data-aos="flip-left" data-aos-delay="900" src="assets/ig.svg" alt="instagram social icon">
+        <a href="https://www.facebook.com/motocrews.r.o/" target="_blank" rel="noopener noreferrer"><img
+            data-aos="flip-left" data-aos-delay="800" src="assets/fb.svg" alt="facebook social icon"> </a>
+        <a href="https://www.instagram.com/motocrews.r.o/" target="_blank" rel="noopener noreferrer"> <img
+            data-aos="flip-left" data-aos-delay="900" src="assets/ig.svg" alt="instagram social icon">
         </a>
-        <a href=""> <img data-aos="flip-left" data-aos-delay="1000" src="assets/yt.svg" alt="youtube social icon"></a>
+        <a href="https://www.youtube.com/@motocrews.r.o" target="_blank" rel="noopener noreferrer"> <img
+            data-aos="flip-left" data-aos-delay="1000" src="assets/yt.svg" alt="youtube social icon"></a>
       </div>
       <div class="menu btn3" id="menu-toggle">
         <div class="icon"></div>
@@ -91,8 +94,9 @@
 
   <section class="contact">
     <h2>Kontakt</h2>
-    <p>Vyplňte formulář níže, nebo nás neváhejte kontaktovat telefonicky či e-mailem. Nabízíme profesionální servis a
-      opravy motocyklů značek Royal Enfield a dalších. Rádi vám pomůžeme s objednáním, opravou nebo testováním motorky.
+    <p>Vyplňte formulář níže, nebo nás neváhejte kontaktovat telefonicky či e-mailem.
+      Nabízíme profesionální servis a prodej motocyklu. Rádi vám pomůžeme s
+      objednáním, opravou, nebo testováním motorky.
     </p>
     <div class="contact-container">
       <div class="contact-adress">
@@ -143,7 +147,7 @@
       </div>
 
       <div class="form-contact">
-        <form action="/send-message" method="POST">
+        <form action="send-mail.php" method="POST">
           <h3>Kontaktuj nás</h3>
 
           <label for="name">Vaše jméno</label>
@@ -156,11 +160,11 @@
           <label for="phone">Vaše číslo</label>
           <input type="tel" id="phone" name="phone" placeholder="Telefonní číslo" required>
 
-          <label for="bike-model">Vaše značka a model motocyklu</label>
-          <input type="text" id="bike-model" name="bike-model" placeholder="Značka a model motocyklu" required>
+          <label for="bike_model">Vaše značka a model motocyklu</label>
+          <input type="text" id="bike_model" name="bike_model" placeholder="Značka a model motocyklu" required>
 
           <label for="message">Vaše zpráva</label>
-          <textarea id="message" name="message" rows="4 " placeholder="Vaše zpráva" required></textarea>
+          <textarea id="message" name="message" rows="4" placeholder="Vaše zpráva" required></textarea>
 
 
           <button type="submit" class="submit-button">Odeslat zprávu</button>
@@ -200,11 +204,11 @@
     <div class="footer-contact">
       <div class="footer-address">
         <h3 class="company">MOTO crew s.r.o</h3>
-        <p class="adress">Litovelská 2294/10</p>
+        <p class="adress"><a href="kontakt.html">Litovelská 2294/10</a></p>
         <p>785 01 Šternberk</p>
 
       </div>
-      <div class="footer-address">
+      <div class="footer-address hidden">
         <h3>Fakturační údaje</h3>
         <p class="adress">IČ:22250409</p>
         <p>DIČ:CZ22250409</p>
@@ -227,6 +231,38 @@
 
   </script>
   <script>        AOS.init();</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.querySelector("form");
+      const messageBox = document.createElement("div");
+      messageBox.style.marginTop = "10px";
+      form.appendChild(messageBox);
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+
+        fetch("send-mail.php", {
+          method: "POST",
+          body: formData
+        })
+          .then(response => response.json())
+          .then(data => {
+            messageBox.textContent = data.message;
+            messageBox.style.color = data.status === "success" ? "green" : "red";
+            if (data.status === "success") {
+              form.reset();
+            }
+          })
+          .catch(error => {
+            messageBox.textContent = "Chyba pri odosielaní formulára.";
+            messageBox.style.color = "red";
+          });
+      });
+    });
+  </script>
+
 </body>
 
 </html>

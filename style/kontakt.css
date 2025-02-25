@@ -44,9 +44,6 @@ body {
   position: relative;
   top: -0.5rem;
 }
-.hero .hero-content > p > img {
-  height: 3.5rem;
-}
 .hero .hero-content > a {
   background-color: #e6ca4a;
   color: #000000;

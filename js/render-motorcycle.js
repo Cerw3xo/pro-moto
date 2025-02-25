@@ -14,11 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let motorcycles = [];
     let filteredMotorcycles = [];
 
-    const modelCategories = [
-        "Classic", "Bear", "Guerrilla", "HNTR", "Shotgun",
-        "Bullet", "Super Meteor", "Scram", "Meteor",
-        "Interceptor", "Continental GT", "Himalayan"
-    ];
+    const modelCategories = {
+        "CLASSIC": ["Classic 350", "Bullet"],
+        "ADVENTURE": ["Himalayan 450", "Himalayan 411", "Scram"],
+        "CHOPPER/CRUISER": ["Meteor", "Super Meteor", "Shotgun", "Classic 650"],
+        "STREET": ["Bear", "Guerrilla", "Interceptor", "Continental GT", "HNTR"]
+    };
 
     fetch('js/motorcycle.json')
         .then(response => {
@@ -55,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             productItem.setAttribute('data-id', model.id);
 
             productItem.innerHTML = `
-                <img src="${model.images[0]}" alt="${model.model}">
+                <img src="${model.images[0]}" alt="${model.model} loading="lazy">
                 <h3>${model.model}</h3>
                 <p class="price">${model.price || 'Cena nie je dostupná.'}</p>
                 <a href="detail.html?id=${model.id}" class="details-link">Zobrazit detaily</a>
@@ -80,19 +81,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
         paginationContainer.style.display = 'flex';
 
-        for (let i = 1; i <= pageCount; i++) {
+        const createPageButton = (page) => {
             const pageButton = document.createElement('button');
-            pageButton.textContent = i;
+            pageButton.textContent = page;
             pageButton.classList.add('page-button');
-            if (i === currentPage) {
+            if (page === currentPage) {
                 pageButton.classList.add('active');
             }
             pageButton.addEventListener('click', () => {
-                currentPage = i;
+                currentPage = page;
                 renderPage(currentPage);
-                updatePagination();
+                renderPagination();
             });
-            paginationContainer.appendChild(pageButton);
+            return pageButton;
+        };
+
+        if (currentPage > 1) {
+            const prevButton = createPageButton(currentPage - 1);
+            prevButton.textContent = '<';
+            paginationContainer.appendChild(prevButton);
+        }
+
+
+        paginationContainer.appendChild(createPageButton(1));
+
+        if (currentPage > 3) {
+            const dots = document.createElement('span');
+            dots.textContent = '...';
+            paginationContainer.appendChild(dots);
+        }
+
+        for (let i = Math.max(2, currentPage - 1); i <= Math.min(pageCount - 1, currentPage + 1); i++) {
+            paginationContainer.appendChild(createPageButton(i));
+        }
+
+        if (currentPage < pageCount - 2) {
+            const dots = document.createElement('span');
+            dots.textContent = '...';
+            paginationContainer.appendChild(dots);
+        }
+
+
+        if (pageCount > 1) {
+            paginationContainer.appendChild(createPageButton(pageCount));
+        }
+
+
+        if (currentPage < pageCount) {
+            const nextButton = createPageButton(currentPage + 1);
+            nextButton.textContent = '>';
+            paginationContainer.appendChild(nextButton);
         }
     }
 
@@ -107,24 +145,71 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function populateModelFilter() {
-        modelCategories.forEach(model => {
-            const option = document.createElement('option');
-            option.value = model;
-            option.textContent = model;
-            modelFilter.appendChild(option);
+        const modelFilter = document.getElementById("model-filter");
+
+
+        modelFilter.innerHTML = '<option value="">Všechny modely</option>';
+
+
+        Object.entries(modelCategories).forEach(([category, models]) => {
+            const optgroup = document.createElement("optgroup");
+            optgroup.label = category;
+
+            models.forEach(model => {
+                const option = document.createElement("option");
+                option.value = model;
+                option.textContent = model;
+                optgroup.appendChild(option);
+            });
+
+            modelFilter.appendChild(optgroup);
         });
+
+
+        const engineOptgroup = document.createElement("optgroup");
+        engineOptgroup.label = "Objem motoru";
+
+        const engineSizes = ["350", "450", "650"];
+        engineSizes.forEach(size => {
+            const option = document.createElement("option");
+            option.value = `engine-${size}`;
+            option.textContent = `${size} ccm`;
+            engineOptgroup.appendChild(option);
+        });
+
+        modelFilter.appendChild(engineOptgroup);
     }
 
     filterButton.addEventListener('click', () => {
         const filterText = filterInput.value.toLowerCase();
-        const selectedModel = modelFilter.value;
+        const selectedValue = modelFilter.value.trim();
+        const isEngineFilter = selectedValue.startsWith("engine-");
 
         filteredMotorcycles = motorcycles.filter(model => {
-            const matchedCategory = modelCategories.find(category => model.model.startsWith(category));
+            let engineCapacity = model.specifications?.engine?.capacity;
+            if (engineCapacity) {
+                engineCapacity = parseInt(engineCapacity.replace(" cc", ""));
+            }
 
-            return (selectedModel === '' || matchedCategory === selectedModel) &&
-                (filterText === '' || model.model.toLowerCase().includes(filterText));
-        })
+
+            let engineMatch = true;
+            if (isEngineFilter && engineCapacity) {
+                const targetCapacity = parseInt(selectedValue.replace("engine-", ""));
+                engineMatch = engineCapacity >= targetCapacity - 10 && engineCapacity <= targetCapacity + 10;
+            }
+
+
+            const matchedCategory = Object.keys(modelCategories).find(category =>
+                modelCategories[category].some(modelName => model.model.toLowerCase().includes(modelName.toLowerCase()))
+            );
+
+            return (
+                (selectedValue === '' || (isEngineFilter ? engineMatch : model.model.includes(selectedValue))) &&
+                (filterText === '' || model.model.toLowerCase().includes(filterText))
+            );
+        });
+
+
         currentPage = 1;
         renderPage(currentPage);
         renderPagination();

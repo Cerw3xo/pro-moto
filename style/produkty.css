@@ -44,9 +44,6 @@ body {
   position: relative;
   top: -0.5rem;
 }
-.hero .hero-content > p > img {
-  height: 3.5rem;
-}
 .hero .hero-content > a {
   background-color: #e6ca4a;
   color: #000000;
@@ -472,6 +469,10 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+.motorcycle .pagination span {
+  position: relative;
+  top: 0.7rem;
 }
 .motorcycle .page-button {
   background-color: #f7f7f7;

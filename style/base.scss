@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@700&display=swap");
-
-$gold-color: #e6ca4a;
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@700&display=swap&subset=latin");
 
 *,
 *::before,
@@ -264,6 +262,12 @@ footer .footer-line {
   margin-bottom: 1rem;
 }
 
+.adress a {
+  cursor: pointer;
+  z-index: 999;
+  position: relative;
+}
+
 @media (max-width: 1210px) {
   header {
     padding: 0 10%;
@@ -468,6 +472,14 @@ footer .footer-line {
       flex-direction: column;
       gap: 2.5rem;
       margin-bottom: 3rem;
+
+      .footer-social {
+        display: none;
+      }
+
+      .hidden {
+        display: none;
+      }
     }
   }
 }
