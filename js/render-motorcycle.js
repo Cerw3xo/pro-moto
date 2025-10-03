@@ -14,6 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let motorcycles = [];
     let filteredMotorcycles = [];
 
+    const toSlug = (text) => {
+        return String(text)
+            .toLowerCase()
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .replace(/[^a-z0-9-]/g, '');
+    };
+
     const modelCategories = {
         "CLASSIC": ["Classic 350", "Bullet"],
         "ADVENTURE": ["Himalayan 450", "Himalayan 411", "Scram"],
@@ -55,12 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             productItem.setAttribute('data-id', model.id);
 
+
+
             productItem.innerHTML = `
-                <img src="${model.images[0]}" alt="${model.model} loading="lazy">
-                <h3>${model.model}</h3>
-                <p class="price">${model.price || 'Cena nie je dostupná.'}</p>
-                <a href="detail.html?id=${model.id}" class="details-link">Zobrazit detaily</a>
-            `;
+            <img src="${model.images[0]}" alt="${model.model}" loading="lazy" decoding="async">
+            <h3>${model.model}</h3>
+            <p class="price">${model.price || 'Cena nie je dostupná.'}</p>
+            <a href="detail.html?id=${model.id}" class="details-link">Zobrazit detaily</a>
+        `;
 
             productItem.addEventListener('click', () => {
                 location.href = `detail.html?id=${model.id}`;

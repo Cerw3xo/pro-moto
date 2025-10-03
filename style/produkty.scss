@@ -58,6 +58,7 @@
       border: none;
       border-radius: 0.1rem;
       margin-right: 5px;
+      border: 1px solid #35322c;
       transition: background-color 0.3s ease, border-color 0.3s ease;
     }
     #reset-button {
@@ -71,7 +72,7 @@
     }
 
     #filter-button:hover {
-      background-color: darken($gold-color, 10%);
+      background-color: lighten($gold-color, 3%);
       border-color: lighten(#35322c, 20%);
     }
   }

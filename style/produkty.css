@@ -373,6 +373,7 @@ body {
   border: none;
   border-radius: 0.1rem;
   margin-right: 5px;
+  border: 1px solid #35322c;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .motorcycle .filter-container #reset-button {
@@ -384,7 +385,7 @@ body {
   border-color: #6d675a;
 }
 .motorcycle .filter-container #filter-button:hover {
-  background-color: #debc1f;
+  background-color: #e8ce57;
   border-color: #6d675a;
 }
 .motorcycle .pagination {

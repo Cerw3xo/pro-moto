@@ -11,10 +11,10 @@ $mail = new PHPMailer(true);
 try {
     // Nastavenie SMTP
     $mail->isSMTP();
-    $mail->Host = 'smtp.mail.me.com'; // Ak používaš Active24
+    $mail->Host = 'smtp.mail.me.com'; 
     $mail->SMTPAuth = true;
-    $mail->Username = 'matejcervenka@icloud.com'; // Sem daj svoj reálny email
-    $mail->Password = 'daau-jgws-epev-nvbv'; // Sem daj heslo k emailu
+    $mail->Username = 'matejcervenka@icloud.com'; 
+    $mail->Password = 'daau-jgws-epev-nvbv';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
     $mail->Port = 587;
 
@@ -37,10 +37,10 @@ try {
 
     $mail->send();
     $response['status'] = 'success';
-    $response['message'] = 'Správa bola úspešne odoslaná!';
+    $response['message'] = 'Zpráva byla úspěšně odeslána!';
 } catch (Exception $e) {
     $response['status'] = 'error';
-    $response['message'] = 'Chyba pri odosielaní: ' . $mail->ErrorInfo;
+    $response['message'] = 'Chyba při odesílání: ' . $mail->ErrorInfo;
 }
 
 

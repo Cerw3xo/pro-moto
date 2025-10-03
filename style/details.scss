@@ -132,7 +132,7 @@
           font-size: 1.2rem;
         }
       }
-      > a {
+      .testride-btn {
         background-color: $gold-color;
         color: $text-color;
         border-radius: 0.1rem;
@@ -145,6 +145,26 @@
           color: $background;
           background-color: darken($gold-color, 10%);
           border-color: lighten(#35322c, 20%);
+        }
+      }
+
+      .catalog-text {
+        all: unset;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        cursor: pointer;
+        position: relative;
+
+        span {
+          position: relative;
+          color: $gold-color;
+          font-size: 1.1rem;
+          top: 0.1rem;
+        }
+
+        &:hover {
+          font-weight: 600;
         }
       }
     }

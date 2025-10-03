@@ -63,16 +63,16 @@
   <header id="header">
     <div class="top-stripe">
       <div class="logo">
-        <img src="assets/Logo.svg" alt="MT-crew logo" fetchpriority="high">
+        <img src="/assets/Logo.svg" alt="MT-crew logo" fetchpriority="high">
       </div>
       <nav id="nav-menu">
         <ul>
-          <li><a href="index.html">MOTO crew</a></li>
-          <li><a href="o-nas.html">O NÁS</a></li>
-          <li><a href="servis.html">SERVIS</a></li>
-          <li><a href="produkty.html">PRODEJ</a></li>
-          <li><a href="testovaci-jizda.html">TESTOVÁNÍ</a></li>
-          <li><a class="sel" href="kontakt.html">KONTAKT</a></li>
+          <li><a href="/index.html">MOTO crew</a></li>
+          <li><a href="/o-nas.html">O NÁS</a></li>
+          <li><a href="/servis.html">SERVIS</a></li>
+          <li><a href="/produkty.html">PRODEJ</a></li>
+          <li><a href="/testovaci-jizda.html">TESTOVÁNÍ</a></li>
+          <li><a class="sel" href="/kontakt.html">KONTAKT</a></li>
         </ul>
       </nav>
 
@@ -127,7 +127,7 @@
             </li>
             <li>
               <i class="fas fa-business-time" aria-hidden="true"></i>
-              Po–Pá: 9:00–17:00
+              Po–Pá: 10:00 – 12:00, 13:00 - 17:00
               <span>
                 Mimo otevírací dobu po domluvě
               </span>
@@ -149,6 +149,8 @@
       <div class="form-contact">
         <form action="send-mail.php" method="POST">
           <h3>Kontaktuj nás</h3>
+
+          <input type="text" name="company" id="company" style="display:none">
 
           <label for="name">Vaše jméno</label>
           <input type="text" id="name" name="name" placeholder="Jméno" required>
@@ -200,7 +202,7 @@
   <footer>
     <h3>Kontaktujte nás:</h3>
     <a href="mailto:info@mt-crew.com" title="Kontaktujte nás e-mailem">info@mt-crew.com</a>
-    <a href="tel:+420 731 280 242">+420 731 280 242</a>
+    <a href="tel:+420731280242">+420 731 280 242</a>
     <div class="footer-contact">
       <div class="footer-address">
         <h3 class="company">MOTO crew s.r.o</h3>
@@ -217,7 +219,7 @@
         <div class="footer-opening-hours">
           <h3>Otevírací doba</h3>
           <ul>
-            <li>10:00 - 17:00</li>
+            <li>10:00 – 12:00<br> 13:00 - 17:00</li>
             <li>Víkend po domluvě</li>
           </ul>
         </div>
@@ -241,6 +243,11 @@
       form.addEventListener("submit", function (event) {
         event.preventDefault();
 
+        const honeypot = form.querySelector('input[name="company"]');
+        if (honeypot && honeypot.value !== "") {
+          return;
+        }
+
         const formData = new FormData(form);
 
         fetch("send-mail.php", {
@@ -256,7 +263,7 @@
             }
           })
           .catch(error => {
-            messageBox.textContent = "Chyba pri odosielaní formulára.";
+            messageBox.textContent = "Chyba pri odesílaní formuláre.";
             messageBox.style.color = "red";
           });
       });

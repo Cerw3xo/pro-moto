@@ -16,6 +16,22 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentIndex = 0;
     let images = [];
 
+    const toSlug = (text) => {
+        return String(text)
+            .toLowerCase()
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .replace(/[^a-z0-9-]/g, '');
+    };
+
+    const toAbsoluteFromRoot = (path) => {
+        if (!path) return path;
+        if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('/')) {
+            return path;
+        }
+        return '/' + path.replace(/^\/+/, '');
+    };
+
     tabs.forEach((tab) => {
         tab.addEventListener("click", () => {
             tabs.forEach((t) => t.classList.remove("active"));
@@ -30,29 +46,59 @@ document.addEventListener("DOMContentLoaded", () => {
         header.classList.toggle('activeHeader', window.scrollY > 10);
     });
 
-    if (window.location.pathname.endsWith("detail.html")) {
+    const path = window.location.pathname;
+    const isDetailHtml = path.endsWith("detail.html");
+    let slug = null;
+    if (!isDetailHtml) {
+        const parts = path.split('/').filter(Boolean);
+        if (parts.length >= 2 && parts[0] === 'detail') {
+            slug = parts[1];
+        }
+    }
+    const isDetailRoute = isDetailHtml || !!slug;
+    if (isDetailRoute) {
         const urlParams = new URLSearchParams(window.location.search);
-        const modelId = urlParams.get("id");
+        const modelId = isDetailHtml ? urlParams.get("id") : null;
 
         fetch("js/motorcycle.json")
             .then(response => response.json())
             .then(data => {
-                const model = data.find(m => m.id == modelId);
+                let model = null;
+                if (slug) {
+                    model = data.find(m => toSlug(m.model) === slug);
+                } else if (modelId) {
+                    model = data.find(m => m.id == modelId);
+                }
                 if (!model) {
                     console.error("Model not found!");
                     return;
                 }
 
-                images = model.images;
+                images = (model.images || []).map(toAbsoluteFromRoot);
+
+                // Upgrade URL in-place to slug for nicer UX even bez server rewrite
+                if (isDetailHtml) {
+                    const newSlug = toSlug(model.model);
+                    const targetPath = `/detail/${newSlug}`;
+                    if (window.history && window.history.replaceState) {
+                        window.history.replaceState({}, '', targetPath);
+                        slug = newSlug;
+                    }
+                }
+
+                const canonicalUrl = slug
+                    ? `https://www.mt-crew.com/detail/${slug}`
+                    : `https://www.mt-crew.com/detail.html?id=${model.id}`;
 
                 document.title = `MOTO crew - Royal Enfield ${model.model}`;
                 document.querySelector("meta[name='description']").setAttribute("content", `${model.model}. Profesionální servis, testovací jízdy a široký výběr doplňků.`);
                 document.querySelector("meta[property='og:title']").setAttribute("content", `MOTO crew - ${model.model}`);
-                document.querySelector("meta[property='og:description']").setAttribute("content", `${model.model} . Profesionální servis a prodej motocyklů Royal Enfield.`);
-                document.querySelector("meta[property='og:url']").setAttribute("content", `https://www.mt-crew.cz/detail/${model.model.toLowerCase().replace(/\s/g, "-").replace(/-+/g, '-').replace(/[^a-z0-9-]/g, '')}`);
-                document.querySelector("link[rel='canonical']").setAttribute("href", `https://www.mt-crew.cz/detail/${model.model.toLowerCase().replace(/\s/g, "-").replace(/-+/g, '-').replace(/[^a-z0-9-]/g, '')}`);
+                document.querySelector("meta[property='og:description']").setAttribute("content", `${model.model}. Profesionální servis a prodej motocyklů Royal Enfield.`);
+                document.querySelector("meta[property='og:url']").setAttribute("content", canonicalUrl);
+                document.querySelector("link[rel='canonical']").setAttribute("href", canonicalUrl);
 
-                detailHero.src = model.images[0];
+
+                detailHero.src = images[0];
                 detailHero.alt = model.model;
                 detailTitle.textContent = model.model;
                 detailInfo.innerHTML = `
@@ -67,10 +113,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 const thumbnailGallery = document.querySelector('.thumbnail-gallery');
                 let currentThumbnail = null;
 
-                model.images.forEach((image, index) => {
+                images.forEach((image, index) => {
                     const thumbnail = document.createElement('img');
                     thumbnail.src = image;
                     thumbnail.alt = `Náhľad ${index + 1}`;
+                    thumbnail.loading = 'lazy';
                     thumbnail.classList.add('thumbnail');
                     thumbnailGallery.appendChild(thumbnail);
 
@@ -103,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 function updateMainImage(index) {
                     currentIndex = index;
-                    detailHero.src = model.images[index];
+                    detailHero.src = images[index];
                     detailHero.alt = `Obrázok ${index + 1}`;
 
                     if (currentThumbnail) {
@@ -118,64 +165,67 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 prevButton.addEventListener('click', () => {
-                    currentIndex = (currentIndex > 0) ? currentIndex - 1 : model.images.length - 1;
+                    currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
                     updateMainImage(currentIndex);
                 });
 
                 nextButton.addEventListener('click', () => {
-                    currentIndex = (currentIndex < model.images.length - 1) ? currentIndex + 1 : 0;
+                    currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
                     updateMainImage(currentIndex);
                 });
 
-                if (model.images.length > 0) {
+                if (images.length > 0) {
                     updateMainImage(currentIndex);
                 }
             })
             .catch(error => console.error("Chyba pri načítaní JSON:", error));
     }
 
-    mainImage.addEventListener('click', () => {
-        lightboxImage.src = mainImage.src;
-        lightbox.style.display = 'flex';
-    });
+    if (mainImage && lightbox && closeLightbox && lightboxPrev && lightboxNext) {
+        mainImage.addEventListener('click', () => {
+            lightboxImage.src = mainImage.src;
+            lightbox.style.display = 'flex';
+        });
 
-    function updateLightboxImage(index) {
-        lightboxImage.src = images[index];
-        lightboxImage.alt = `Obrázek ${index + 1}`;
-    }
+        function updateLightboxImage(index) {
+            lightboxImage.src = images[index];
+            lightboxImage.alt = `Obrázek ${index + 1}`;
+        }
 
-    lightboxPrev.addEventListener('click', () => {
-        currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
-        updateLightboxImage(currentIndex);
-    })
-
-    lightboxNext.addEventListener('click', () => {
-        currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
-        updateLightboxImage(currentIndex);
-    })
-
-    document.addEventListener('keydown', (event) => {
-        if (event.key === 'ArrowLeft') {
+        lightboxPrev.addEventListener('click', () => {
             currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
             updateLightboxImage(currentIndex);
-        } else if (event.key === 'ArrowRight') {
+        })
+
+        lightboxNext.addEventListener('click', () => {
             currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
             updateLightboxImage(currentIndex);
-        }
-    });
+        })
 
-    closeLightbox.addEventListener('click', () => {
-        lightbox.style.display = 'none';
-    });
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowLeft') {
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateLightboxImage(currentIndex);
+            } else if (event.key === 'ArrowRight') {
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateLightboxImage(currentIndex);
+            }
+        });
 
-    lightbox.addEventListener('click', (event) => {
-        if (event.target === lightbox) {
+        closeLightbox.addEventListener('click', () => {
             lightbox.style.display = 'none';
-        }
-    });
+        });
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                lightbox.style.display = 'none';
+            }
+        });
+    }
+
 
     document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
+        if (event.key === 'Escape' && lightbox) {
             lightbox.style.display = 'none';
         }
     });

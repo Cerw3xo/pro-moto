@@ -444,7 +444,7 @@ body {
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
-.detail .moto .detail-info > a {
+.detail .moto .detail-info .testride-btn {
   background-color: #e6ca4a;
   color: #000000;
   border-radius: 0.1rem;
@@ -453,10 +453,27 @@ body {
   font-size: 1rem;
   border: 1px solid black;
 }
-.detail .moto .detail-info > a:hover {
+.detail .moto .detail-info .testride-btn:hover {
   color: #ffffff;
   background-color: #debc1f;
   border-color: #6d675a;
+}
+.detail .moto .detail-info .catalog-text {
+  all: unset;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+}
+.detail .moto .detail-info .catalog-text span {
+  position: relative;
+  color: #e6ca4a;
+  font-size: 1.1rem;
+  top: 0.1rem;
+}
+.detail .moto .detail-info .catalog-text:hover {
+  font-weight: 600;
 }
 .detail .product-description {
   padding: 2rem 0;
